@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
+    <script src="http://sigmajs.org/js/sigma.min.js"></script>
+    <script src="http://sigmajs.org/js/sigma.forceatlas2.js"></script>
+    <title>Translate Map</title>
+    <script>
+        ymaps.ready(init_map);
+        var API_PREFIX = 'https://www.googleapis.com/language/translate/v2/'
+        var API_KEY = 'AIzaSyCTG4pC17gS02hQqgOEfkIS88pip8U68B8';
+        var URL_PREFIX = 'file:///Users/bumshmyak/p/tmap';
+        var LANG_NAMES = {};
+        var LANG_TO_COORDS = {};
+        var COORD_TO_OBJECT = {};
+        var MAP;
+        var MARKS_COLLECTION;
+        var LANGS_REMAINING;
+        var WORD_LANGS = [];
+
+        function init_map() {
+            MAP = new ymaps.Map("map", {
+                center: [0, 0],
+                zoom: 2
+            });
+
+            MAP.controls
+            // Кнопка изменения масштаба.
+            .add('zoomControl', { left: 5, top: 5 })
+            // Список типов карты
+            .add('typeSelector')
+            // Стандартный набор кнопок
+            .add('mapTools', { left: 35, top: 5 }); 
+            
+            MARKS_COLLECTION = new ymaps.GeoObjectCollection({}, 
+                {
+                    preset: 'twirl#redStretchyIcon'
+                });
+
+            MAP.geoObjects.add(MARKS_COLLECTION);
+        }
+
+        function randomString() {
+            return Math.random().toString(36).substring(7);
+        }
+
+        function createHandler(handlerName, params) {
+            var newScript = document.createElement('script');
+            newScript.type = 'text/javascript';
+
+            var modifiedHandlerName = handlerName + randomString();
+
+            js = 'function ' + modifiedHandlerName + '(responce)' +
+                 '{' + handlerName + '(responce';
+            for (var k in params) {
+                js += ', ' + k + '="' + params[k] + '"';
+            }
+            js += ');}';
+            
+            newScript.innerHTML = js;
+            newScript.setAttribute('class', 'trashme');
+            document.getElementsByTagName('head')[0].appendChild(newScript);
+            return modifiedHandlerName;
+        }        
+
+        function requestGoogleAPI(method, params) {
+            var newScript = document.createElement('script');
+            newScript.type = 'text/javascript';
+            query = API_PREFIX + method + '?key=' + API_KEY;
+            for (var k in params) {
+                query += '&' + k + '=' + params[k];
+            }
+            newScript.src = query;
+            newScript.setAttribute('class', 'trashme');
+            document.getElementsByTagName('head')[0].appendChild(newScript);
+        }
+
+        function executeRequest(method, requestParams, handlerName, handlerParams) {
+            var modifiedHandlerName = createHandler(handlerName, handlerParams);
+            var params = requestParams;
+            params['callback'] = modifiedHandlerName;
+            requestGoogleAPI(method, params);
+        }
+
+        function buildWordsTable() {
+            var table = document.getElementById('langTable');
+
+            WORD_LANGS.sort(function(a, b) {
+                    if (a['word'] < b['word']) {
+                        return -1;
+                    } else {
+                        return 1;
+                    }
+                });
+
+            for (var i = 0; i < WORD_LANGS.length; i++) {
+                var item = WORD_LANGS[i];
+                var rowCount = i;
+                var row = table.insertRow(i);
+
+                var cell0 = row.insertCell(0);
+                cell0.innerHTML = item['word'];
+
+                var cell1 = row.insertCell(1);
+                cell1.innerHTML = LANG_NAMES[item['lang']];
+            }
+        }
+
+        function levenshteinDistance (s, t) {
+            if (!s.length) return t.length;
+            if (!t.length) return s.length;
+     
+            return Math.min(
+                    levenshteinDistance(s.substr(1), t) + 1,
+                    levenshteinDistance(t.substr(1), s) + 1,
+                    levenshteinDistance(s.substr(1), t.substr(1)) + (s[0] !== t[0] ? 1 : 0)
+            );
+        }
+
+        function buildWordsGraph() {
+            var sigInst = sigma.init(document.getElementById('sigma-container')).drawingProperties({
+                defaultLabelColor: '#fff'
+            });
+
+            var word_to_langs = {};
+
+            for (var i = 0; i < WORD_LANGS.length; i++) {
+                var item = WORD_LANGS[i];
+                if (!(item['name'] in word_to_langs)) {
+                    word_to_langs[item['name']] = [];
+                }
+                word_to_langs[item['name']].push(item['lang']);
+            }
+
+            for(var word in word_to_langs) {
+                sigInst.addNode(word, {'x': Math.random(), 'y': Math.random(), 'size': 0.5+4.5*Math.random()});
+            }
+
+            var edgeIndex = 0;
+            for(var word1 in word_to_langs) {
+                for(var word2 in word_to_langs) {
+                    if (word1 == word2) {
+                        continue;
+                    }
+                    var weight = levenshteinDistance(word1, word2);
+                    sigInst.addEdge(edgeIndex, word1, word2, weight);
+                    edgeIndex += 1;
+                }
+            }
+
+            sigInst.startForceAtlas2();
+        }
+
+        function translateTextHandler(response, target) {
+            var translatedText = response.data.translations[0].translatedText.toLowerCase();
+            LANGS_REMAINING -= 1;
+
+            WORD_LANGS.push({
+                'word': translatedText,
+                'lang': target
+            });
+
+            if (!(target in LANG_TO_COORDS)) {
+                return;
+            }
+
+            var coords = LANG_TO_COORDS[target];
+
+            for (var i = 0; i < coords.length; ++i) {
+                var c = coords[i];
+                var cstr = c['lat'] + '_' + c['lng'];
+
+                if (cstr in COORD_TO_OBJECT) {
+                    var geoObject = COORD_TO_OBJECT[cstr];
+                    var text = geoObject.properties.get('iconContent');
+                    var parts = text.split('|');
+                    if (!(translatedText in parts)) {
+                        text += '|' + translatedText;
+                        geoObject.properties.set('iconContent', text);
+                    }
+                } else {
+                    var geoObject = new ymaps.GeoObject({
+                        // Описание геометрии.
+                        geometry: {
+                            type: "Point",
+                            coordinates: [c['lat'], c['lng']]
+                        },
+                        // Свойства.
+                        properties: {
+                            // Контент метки.
+                            iconContent: translatedText,
+                        }
+                    }, {});
+
+                    COORD_TO_OBJECT[cstr] = geoObject;
+
+                    MARKS_COLLECTION.add(geoObject);
+                }
+            }
+
+            if (LANGS_REMAINING == 0) {
+                buildWordsTable();
+                buildWordsGraph();
+            }
+        }        
+
+        function translateText(text, target) {
+            var escapedText = escape(text);
+            executeRequest('',
+                           {
+                              q: text,
+                              target: target,
+                           },
+                           'translateTextHandler',
+                           {
+                              target: target,
+                           })
+        }
+
+        function listLanguagesHandler(response) {
+            var sourceText = document.getElementById("sourceText").value;
+            var languages = response.data.languages;
+            LANGS_REMAINING = languages.length;
+            WORD_LANGS = [];
+            for (var i = 0; i < languages.length; i++) {
+                translateText(sourceText, languages[i].language);
+            }
+        }
+
+        function listLanguages() {
+            executeRequest('languages', {}, 'listLanguagesHandler', {})
+        }
+
+        function cleanSideEffects() {
+            $('.trashme').remove();
+            document.getElementById('langTable').innerHTML = '';
+            MARKS_COLLECTION.removeAll();
+            COORD_TO_OBJECT = {};
+        }
+
+        function goHandler() {
+            cleanSideEffects();
+            listLanguages();
+        }
+
+        // load jsons
+        $.getJSON(URL_PREFIX + '/data/lang_to_coords.json', function(data) {
+            $.each(data, function(key, val) {
+                LANG_TO_COORDS[key] = val;
+            });
+        });
+
+        $.getJSON(URL_PREFIX + '/data/lang_codes.json', function(data) {
+            $.each(data, function(key, val) {
+                LANG_NAMES[key] = val;
+            });
+        });        
+    </script>
+  </head>
+  <body>
+    <input type="text" size=40 id="sourceText">
+    <input type="button" onclick="goHandler()" value="go!">
+    <div id="map" style="width:800px; height:600px"></div>
+    <table id="langTable"></table>
+    <div id="sigma-container" style="width:400px; height:400px"></div>
+  </body>
+</html>
