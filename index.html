@@ -38,6 +38,10 @@
             border: 1px solid black;
         }
 
+        .underlined_link {
+            text-decoration: underline;
+        }
+
         #left_sidebar {
             width: 20%;
             height: 95%;            
@@ -59,7 +63,7 @@
         }
 
         #header {
-            width: 20%;
+            width: 100%;
         }
     </style>    
   </head>    
@@ -290,11 +294,23 @@
   </head>
   <body>
     <div id="header">
-        <div class="input-group">
-          <input type="text" id="sourceText" class="form-control">
-          <span class="input-group-btn">
-            <button class="btn btn-default" type="button" onclick="goHandler()">Перевести</button>
-          </span>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="input-group">
+                  <input type="text" id="sourceText" class="form-control">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="goHandler()">Перевести</button>
+                  </span>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <ul class="nav nav-pills">
+                    <li><a href="http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%A1%D0%B2%D0%BE%D0%B4%D0%B5%D1%88%D0%B0">Список Сводеша</a></li>
+                    <li><a href="http://www.ruscorpora.ru/1grams.top.html">Популярные слова</a></li>
+                </ul>
+            </div>
+
         </div>
     </div>
 
