@@ -94,7 +94,7 @@ def get_country_geo_info(country_name):
     url = 'http://maps.googleapis.com/maps/api/geocode/json'
 
     params = {
-        'address': country_name.lower(),
+        'address': country_name.lower() + ',country',
         'sensor': 'false'
     }
 
@@ -110,6 +110,8 @@ def get_country_geo_info(country_name):
     geo_info = {}
     geo_info['geometry'] = first_result['geometry']
     geo_info['types'] = first_result['types']
+    if 'country' not in geo_info['types']:
+        print country_name, geo_info['types']
     return geo_info
 
 
@@ -128,51 +130,58 @@ def prepare_lang_to_coords(lang_to_country_names, country_geo_info):
     return lang_to_coords
 
 
+def check_country_geo_info(country_geo_info):
+    for country, geo_info in country_geo_info.items():
+        types = geo_info.get('types', [])
+        if 'country' not in types:
+            print country, types
+
+
+def dump_json(obj, filename):
+    with open(filename, 'w') as json_file:
+        json.dump(obj, json_file)
+
+def load_json(filename):
+    with open(filename) as json_file:
+        return json.load(json_file)
+
+
 def main():
-    lang_code_to_name = prepare_language_codes()
-    country_code_to_name = prepare_country_codes()
-    lang_to_country_info = prepare_lang_to_country_info()
+    # lang_code_to_name = prepare_language_codes()
+    # dump_json(lang_to_code_name, LANGUAGE_CODES_JSON_FILENAME)
+    lang_code_to_name = load_json(LANGUAGE_CODES_JSON_FILENAME)
+
+    # country_code_to_name = prepare_country_codes()
+    # dump_json(country_code_to_name, COUNTRY_CODES_JSON_FILENAME)
+    country_code_to_name = load_json(COUNTRY_CODES_JSON_FILENAME)
+
+    # lang_to_country_info = prepare_lang_to_country_info()
+    # dump_json(lang_to_country_info, LANG_TO_COUNTRY_INFO_JSON_FILENAME)
+    lang_to_country_info = load_json(LANG_TO_COUNTRY_INFO_JSON_FILENAME)
 
     lang_to_country_names = prepare_lang_country_names(country_code_to_name,
                                                        lang_to_country_info,
                                                        lang_code_to_name)
 
-    with open(LANGUAGE_CODES_JSON_FILENAME, 'w') as json_file:
-        json.dump(lang_code_to_name, json_file)
-
-    with open(COUNTRY_CODES_JSON_FILENAME, 'w') as json_file:
-        json.dump(country_code_to_name, json_file)
-
-    with open(LANG_TO_COUNTRY_INFO_JSON_FILENAME, 'w') as json_file:
-        json.dump(lang_to_country_info, json_file)
-
-    with open(LANG_TO_COUNTRY_NAMES, 'w') as json_file:
-        json.dump(lang_to_country_names, json_file)
-
     # country_names = country_code_to_name.values()
     # country_geo_info = dict((name, get_country_geo_info(name)) for name in country_names)
-
-    # with open(COUNTRY_TO_GEO_INFO_JSON_FILENAME, 'w') as json_file:
-    #     json.dump(country_geo_info, json_file)
-
-    with open(COUNTRY_TO_GEO_INFO_JSON_FILENAME) as json_file:
-        country_geo_info = json.load(json_file)
+    # dump_json(country_geo_info, COUNTRY_TO_GEO_INFO_JSON_FILENAME)
+    country_geo_info = load_json(COUNTRY_TO_GEO_INFO_JSON_FILENAME)
 
     lang_to_coords = prepare_lang_to_coords(lang_to_country_names, country_geo_info)
+    dump_json(lang_to_coords, LANG_TO_COORDS_JSON_FILENAME)
+    lang_to_coords = load_json(LANG_TO_COORDS_JSON_FILENAME)
 
-    with open(LANG_TO_COORDS_JSON_FILENAME, 'w') as json_file:
-        json.dump(lang_to_coords, json_file)
+    # coord_to_langs = defaultdict(list)
+    # for lang, coords in lang_to_coords.items():
+    #     for coord in coords:
+    #         coord_to_langs[str(coord)].append(lang)
 
-    coord_to_langs = defaultdict(list)
-    for lang, coords in lang_to_coords.items():
-        for coord in coords:
-            coord_to_langs[str(coord)].append(lang)
-
-    for coord, langs in coord_to_langs.items():
-        if len(langs) > 1:
-            print 20 * '-'
-            for lang in langs:
-                print lang
+    # for coord, langs in coord_to_langs.items():
+    #     if len(langs) > 1:
+    #         print 20 * '-'
+    #         for lang in langs:
+    #             print lang
 
 
 

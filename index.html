@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
-    <script src="http://sigmajs.org/js/sigma.min.js"></script>
-    <script src="http://sigmajs.org/js/sigma.forceatlas2.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Translate Map</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->    
+
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        html, body
+        {
+            height: 100%;
+            overflow-y:hidden;
+            overflow-x:hidden;            
+        }
+
+        table
+        {
+            border-collapse:collapse;
+        }
+
+        table, th, td
+        {
+            border: 1px solid black;
+        }
+
+        #left_sidebar {
+            width: 20%;
+            height: 95%;            
+            float: left;
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+
+        #langTable {
+            width: 100%;
+        }
+
+        #map_container {
+            width: 80%;
+            height: 95%;
+            float: left;
+            overflow-y:hidden;
+            overflow-x:hidden;            
+        }
+
+        #header {
+            width: 20%;
+        }
+    </style>    
+  </head>    
+
     <script>
         ymaps.ready(init_map);
         var API_PREFIX = 'https://www.googleapis.com/language/translate/v2/'
@@ -17,20 +74,18 @@
         var COORD_TO_OBJECT = {};
         var MAP;
         var MARKS_COLLECTION;
-        var LANGS_REMAINING;
+        var N_LANGUAGES;
         var WORD_LANGS = [];
 
         function init_map() {
-            MAP = new ymaps.Map("map", {
-                center: [0, 0],
+            MAP = new ymaps.Map("map_container", {
+                center: [27, 38],
                 zoom: 2
             });
 
             MAP.controls
             // Кнопка изменения масштаба.
             .add('zoomControl', { left: 5, top: 5 })
-            // Список типов карты
-            .add('typeSelector')
             // Стандартный набор кнопок
             .add('mapTools', { left: 35, top: 5 }); 
             
@@ -40,6 +95,8 @@
                 });
 
             MAP.geoObjects.add(MARKS_COLLECTION);
+
+            MAP.container.fitToViewport();                            
         }
 
         function randomString() {
@@ -95,114 +152,85 @@
                     }
                 });
 
-            for (var i = 0; i < WORD_LANGS.length; i++) {
-                var item = WORD_LANGS[i];
-                var rowCount = i;
-                var row = table.insertRow(i);
-
-                var cell0 = row.insertCell(0);
-                cell0.innerHTML = item['word'];
-
-                var cell1 = row.insertCell(1);
-                cell1.innerHTML = LANG_NAMES[item['lang']];
-            }
-        }
-
-        function levenshteinDistance (s, t) {
-            if (!s.length) return t.length;
-            if (!t.length) return s.length;
-     
-            return Math.min(
-                    levenshteinDistance(s.substr(1), t) + 1,
-                    levenshteinDistance(t.substr(1), s) + 1,
-                    levenshteinDistance(s.substr(1), t.substr(1)) + (s[0] !== t[0] ? 1 : 0)
-            );
-        }
-
-        function buildWordsGraph() {
-            var sigInst = sigma.init(document.getElementById('sigma-container')).drawingProperties({
-                defaultLabelColor: '#fff'
-            });
-
             var word_to_langs = {};
 
             for (var i = 0; i < WORD_LANGS.length; i++) {
                 var item = WORD_LANGS[i];
-                if (!(item['name'] in word_to_langs)) {
-                    word_to_langs[item['name']] = [];
+                if (!(item.word in word_to_langs)) {
+                    word_to_langs[item.word] = [];
                 }
-                word_to_langs[item['name']].push(item['lang']);
-            }
+                word_to_langs[item.word].push(item.lang);
+            }            
 
-            for(var word in word_to_langs) {
-                sigInst.addNode(word, {'x': Math.random(), 'y': Math.random(), 'size': 0.5+4.5*Math.random()});
-            }
+            var i = 0;
+            var row = table.insertRow(i);
 
-            var edgeIndex = 0;
-            for(var word1 in word_to_langs) {
-                for(var word2 in word_to_langs) {
-                    if (word1 == word2) {
-                        continue;
-                    }
-                    var weight = levenshteinDistance(word1, word2);
-                    sigInst.addEdge(edgeIndex, word1, word2, weight);
-                    edgeIndex += 1;
-                }
-            }
+            var cell0 = row.insertCell(0);
+            cell0.innerHTML = '<b>Слово</b>';
 
-            sigInst.startForceAtlas2();
+            var cell1 = row.insertCell(1);
+            cell1.innerHTML = '<b>Яыки</b>';
+            ++i;            
+
+            for (word in word_to_langs) {
+                var langs = word_to_langs[word].map(function(s) {return LANG_NAMES[s];});
+
+                var row = table.insertRow(i);
+
+                var cell0 = row.insertCell(0);
+                cell0.innerHTML = word;
+
+                var cell1 = row.insertCell(1);
+                cell1.innerHTML = langs.join('<br>');
+                i++;
+            }
         }
 
         function translateTextHandler(response, target) {
             var translatedText = response.data.translations[0].translatedText.toLowerCase();
-            LANGS_REMAINING -= 1;
-
             WORD_LANGS.push({
                 'word': translatedText,
                 'lang': target
             });
 
-            if (!(target in LANG_TO_COORDS)) {
-                return;
-            }
+            if (target in LANG_TO_COORDS) {
+                var coords = LANG_TO_COORDS[target];
 
-            var coords = LANG_TO_COORDS[target];
+                for (var i = 0; i < coords.length; ++i) {
+                    var c = coords[i];
+                    var cstr = c['lat'] + '_' + c['lng'];
 
-            for (var i = 0; i < coords.length; ++i) {
-                var c = coords[i];
-                var cstr = c['lat'] + '_' + c['lng'];
-
-                if (cstr in COORD_TO_OBJECT) {
-                    var geoObject = COORD_TO_OBJECT[cstr];
-                    var text = geoObject.properties.get('iconContent');
-                    var parts = text.split('|');
-                    if (!(translatedText in parts)) {
-                        text += '|' + translatedText;
-                        geoObject.properties.set('iconContent', text);
-                    }
-                } else {
-                    var geoObject = new ymaps.GeoObject({
-                        // Описание геометрии.
-                        geometry: {
-                            type: "Point",
-                            coordinates: [c['lat'], c['lng']]
-                        },
-                        // Свойства.
-                        properties: {
-                            // Контент метки.
-                            iconContent: translatedText,
+                    if (cstr in COORD_TO_OBJECT) {
+                        var geoObject = COORD_TO_OBJECT[cstr];
+                        var text = geoObject.properties.get('iconContent');
+                        var parts = text.split('|');
+                        if (!(translatedText in parts)) {
+                            text += '|' + translatedText;
+                            geoObject.properties.set('iconContent', text);
                         }
-                    }, {});
+                    } else {
+                        var geoObject = new ymaps.GeoObject({
+                            // Описание геометрии.
+                            geometry: {
+                                type: "Point",
+                                coordinates: [c['lat'], c['lng']]
+                            },
+                            // Свойства.
+                            properties: {
+                                // Контент метки.
+                                iconContent: translatedText,
+                            }
+                        }, {});
 
-                    COORD_TO_OBJECT[cstr] = geoObject;
+                        COORD_TO_OBJECT[cstr] = geoObject;
 
-                    MARKS_COLLECTION.add(geoObject);
+                        MARKS_COLLECTION.add(geoObject);
+                    }
                 }
             }
 
-            if (LANGS_REMAINING == 0) {
+            if (WORD_LANGS.length == N_LANGUAGES) {
                 buildWordsTable();
-                buildWordsGraph();
             }
         }        
 
@@ -222,7 +250,7 @@
         function listLanguagesHandler(response) {
             var sourceText = document.getElementById("sourceText").value;
             var languages = response.data.languages;
-            LANGS_REMAINING = languages.length;
+            N_LANGUAGES = languages.length;
             WORD_LANGS = [];
             for (var i = 0; i < languages.length; i++) {
                 translateText(sourceText, languages[i].language);
@@ -260,10 +288,18 @@
     </script>
   </head>
   <body>
-    <input type="text" size=40 id="sourceText">
-    <input type="button" onclick="goHandler()" value="go!">
-    <div id="map" style="width:800px; height:600px"></div>
-    <table id="langTable"></table>
-    <div id="sigma-container" style="width:400px; height:400px"></div>
+    <div id="header">
+        <div class="input-group">
+          <input type="text" id="sourceText" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button" onclick="goHandler()">Перевести</button>
+          </span>
+        </div>
+    </div>
+
+    <div id="left_sidebar">
+        <table id="langTable"></table>
+    </div>
+    <div id="map_container"></div>
   </body>
 </html>

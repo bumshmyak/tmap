@@ -1,0 +1,8161 @@
+{
+  "japan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 45.5227719,
+          "lng": 153.9874306
+        },
+        "southwest": {
+          "lat": 24.0460446,
+          "lng": 122.9338302
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.5227719,
+          "lng": 145.8175503
+        },
+        "southwest": {
+          "lat": 24.0486928,
+          "lng": 122.9338302
+        }
+      },
+      "location": {
+        "lat": 36.204824,
+        "lng": 138.252924
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "french southern territories": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -48.4497414,
+          "lng": 70.5566024
+        },
+        "southwest": {
+          "lat": -49.7339179,
+          "lng": 68.6090183
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -48.4497414,
+          "lng": 70.5566024
+        },
+        "southwest": {
+          "lat": -49.7339179,
+          "lng": 68.6090183
+        }
+      },
+      "location": {
+        "lat": -49.280366,
+        "lng": 69.348557
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint barth\u00e9lemy": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.960853,
+          "lng": -62.7892148
+        },
+        "southwest": {
+          "lat": 17.8708287,
+          "lng": -62.9118453
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 17.9570156,
+          "lng": -62.7892148
+        },
+        "southwest": {
+          "lat": 17.8708287,
+          "lng": -62.8784895
+        }
+      },
+      "location": {
+        "lat": 17.9,
+        "lng": -62.833333
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tokelau": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -8.531454,
+          "lng": -171.1811113
+        },
+        "southwest": {
+          "lat": -9.4448709,
+          "lng": -172.5207405
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -9.1006561,
+          "lng": -171.7657901
+        },
+        "southwest": {
+          "lat": -9.2330113,
+          "lng": -171.8706322
+        }
+      },
+      "location": {
+        "lat": -9.2002,
+        "lng": -171.8484
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cayman islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 19.7569685,
+          "lng": -79.7229976
+        },
+        "southwest": {
+          "lat": 19.262839,
+          "lng": -81.4200639
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 19.3965574,
+          "lng": -81.0843088
+        },
+        "southwest": {
+          "lat": 19.262839,
+          "lng": -81.4200639
+        }
+      },
+      "location": {
+        "lat": 19.3133,
+        "lng": -81.2546
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "azerbaijan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 41.9123402,
+          "lng": 50.3680657
+        },
+        "southwest": {
+          "lat": 38.3919901,
+          "lng": 44.7646831
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.9123402,
+          "lng": 50.3680657
+        },
+        "southwest": {
+          "lat": 38.3919901,
+          "lng": 44.7646831
+        }
+      },
+      "location": {
+        "lat": 40.143105,
+        "lng": 47.576927
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "uzbekistan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 45.590075,
+          "lng": 73.148946
+        },
+        "southwest": {
+          "lat": 37.1722571,
+          "lng": 55.9982179
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.590075,
+          "lng": 73.148946
+        },
+        "southwest": {
+          "lat": 37.1722571,
+          "lng": 55.9982179
+        }
+      },
+      "location": {
+        "lat": 41.377491,
+        "lng": 64.585262
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "djibouti": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.7133956,
+          "lng": 43.4169731
+        },
+        "southwest": {
+          "lat": 10.9319442,
+          "lng": 41.7597221
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.7133956,
+          "lng": 43.4169731
+        },
+        "southwest": {
+          "lat": 10.9319442,
+          "lng": 41.7597221
+        }
+      },
+      "location": {
+        "lat": 11.825138,
+        "lng": 42.590275
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "french guiana": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 5.7571896,
+          "lng": -51.6335964
+        },
+        "southwest": {
+          "lat": 2.109287,
+          "lng": -54.5544379
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.7571896,
+          "lng": -51.6335964
+        },
+        "southwest": {
+          "lat": 2.109287,
+          "lng": -54.5544379
+        }
+      },
+      "location": {
+        "lat": 3.933889,
+        "lng": -53.125782
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cambodia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.6901791,
+          "lng": 107.627687
+        },
+        "southwest": {
+          "lat": 9.2768081,
+          "lng": 102.333542
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 14.6901791,
+          "lng": 107.627687
+        },
+        "southwest": {
+          "lat": 9.2768081,
+          "lng": 102.333542
+        }
+      },
+      "location": {
+        "lat": 12.565679,
+        "lng": 104.990963
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guinea-bissau": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.6847224,
+          "lng": -13.6275045
+        },
+        "southwest": {
+          "lat": 10.8599702,
+          "lng": -16.7117356
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.6847224,
+          "lng": -13.6275045
+        },
+        "southwest": {
+          "lat": 10.8599702,
+          "lng": -16.7117356
+        }
+      },
+      "location": {
+        "lat": 11.803749,
+        "lng": -15.180413
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "hungary": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 48.585234,
+          "lng": 22.897379
+        },
+        "southwest": {
+          "lat": 45.7370889,
+          "lng": 16.1133863
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.585234,
+          "lng": 22.897379
+        },
+        "southwest": {
+          "lat": 45.7370889,
+          "lng": 16.1133863
+        }
+      },
+      "location": {
+        "lat": 47.162494,
+        "lng": 19.503304
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "taiwan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.3873533,
+          "lng": 122.0069052
+        },
+        "southwest": {
+          "lat": 20.5637908,
+          "lng": 116.7118601
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.3004408,
+          "lng": 122.0069052
+        },
+        "southwest": {
+          "lat": 21.8966958,
+          "lng": 120.0278017
+        }
+      },
+      "location": {
+        "lat": 23.69781,
+        "lng": 120.960515
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cyprus": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 35.7071999,
+          "lng": 34.6045
+        },
+        "southwest": {
+          "lat": 34.632303,
+          "lng": 32.2687076
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.7071999,
+          "lng": 34.6045
+        },
+        "southwest": {
+          "lat": 34.632303,
+          "lng": 32.2687076
+        }
+      },
+      "location": {
+        "lat": 35.126413,
+        "lng": 33.429859
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "barbados": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.335126,
+          "lng": -59.4200975
+        },
+        "southwest": {
+          "lat": 13.0449995,
+          "lng": -59.6510303
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.335126,
+          "lng": -59.4200975
+        },
+        "southwest": {
+          "lat": 13.0449995,
+          "lng": -59.6510303
+        }
+      },
+      "location": {
+        "lat": 13.193887,
+        "lng": -59.543198
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bhutan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 28.360825,
+          "lng": 92.1252321
+        },
+        "southwest": {
+          "lat": 26.702016,
+          "lng": 88.7464735
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 28.360825,
+          "lng": 92.1252321
+        },
+        "southwest": {
+          "lat": 26.702016,
+          "lng": 88.7464735
+        }
+      },
+      "location": {
+        "lat": 27.514162,
+        "lng": 90.433601
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "kazakhstan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 55.4419839,
+          "lng": 87.315415
+        },
+        "southwest": {
+          "lat": 40.5685841,
+          "lng": 46.4936719
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.4419839,
+          "lng": 87.315415
+        },
+        "southwest": {
+          "lat": 40.5685841,
+          "lng": 46.4936719
+        }
+      },
+      "location": {
+        "lat": 48.019573,
+        "lng": 66.923684
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "lithuania": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 56.4503209,
+          "lng": 26.8355913
+        },
+        "southwest": {
+          "lat": 53.8968787,
+          "lng": 20.954368
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.4503209,
+          "lng": 26.8355913
+        },
+        "southwest": {
+          "lat": 53.8968787,
+          "lng": 20.954368
+        }
+      },
+      "location": {
+        "lat": 55.169438,
+        "lng": 23.881275
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mongolia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 52.1486965,
+          "lng": 119.9319489
+        },
+        "southwest": {
+          "lat": 41.5815201,
+          "lng": 87.73762
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.1486965,
+          "lng": 119.9319489
+        },
+        "southwest": {
+          "lat": 41.5815201,
+          "lng": 87.73762
+        }
+      },
+      "location": {
+        "lat": 46.862496,
+        "lng": 103.846656
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "united kingdom": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 60.9113448,
+          "lng": 33.9165549
+        },
+        "southwest": {
+          "lat": 34.5640831,
+          "lng": -8.6493572
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 60.856553,
+          "lng": 1.7627096
+        },
+        "southwest": {
+          "lat": 49.8669688,
+          "lng": -8.6493572
+        }
+      },
+      "location": {
+        "lat": 55.378051,
+        "lng": -3.435973
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tunisia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.3582873,
+          "lng": 11.5992174
+        },
+        "southwest": {
+          "lat": 30.2280336,
+          "lng": 7.5223135
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.3582873,
+          "lng": 11.5992174
+        },
+        "southwest": {
+          "lat": 30.2280336,
+          "lng": 7.5223135
+        }
+      },
+      "location": {
+        "lat": 33.886917,
+        "lng": 9.537499
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "rwanda": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -1.0475717,
+          "lng": 30.8994008
+        },
+        "southwest": {
+          "lat": -2.8398397,
+          "lng": 28.8617547
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -1.0475717,
+          "lng": 30.8994008
+        },
+        "southwest": {
+          "lat": -2.8398397,
+          "lng": 28.8617547
+        }
+      },
+      "location": {
+        "lat": -1.940278,
+        "lng": 29.873888
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "british virgin islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.7495529,
+          "lng": -64.2704487
+        },
+        "southwest": {
+          "lat": 18.3063328,
+          "lng": -64.8504602
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.5298896,
+          "lng": -64.3204021
+        },
+        "southwest": {
+          "lat": 18.3063328,
+          "lng": -64.8504602
+        }
+      },
+      "location": {
+        "lat": 18.420695,
+        "lng": -64.639968
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "antigua and barbuda": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.729564,
+          "lng": -61.6571617
+        },
+        "southwest": {
+          "lat": 16.9325319,
+          "lng": -62.347657
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 17.1764956,
+          "lng": -61.6571617
+        },
+        "southwest": {
+          "lat": 16.9973826,
+          "lng": -61.9098204
+        }
+      },
+      "location": {
+        "lat": 17.060816,
+        "lng": -61.796428
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "puerto rico": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.5160099,
+          "lng": -65.2211099
+        },
+        "southwest": {
+          "lat": 17.8814286,
+          "lng": -67.9515777
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.5160099,
+          "lng": -65.2211099
+        },
+        "southwest": {
+          "lat": 17.8814286,
+          "lng": -67.4842397
+        }
+      },
+      "location": {
+        "lat": 18.220833,
+        "lng": -66.590149
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "argentina": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -21.7808136,
+          "lng": -53.637481
+        },
+        "southwest": {
+          "lat": -55.0577146,
+          "lng": -73.5603601
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -21.7808136,
+          "lng": -53.637481
+        },
+        "southwest": {
+          "lat": -55.0577146,
+          "lng": -73.5603601
+        }
+      },
+      "location": {
+        "lat": -38.416097,
+        "lng": -63.616672
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "norway": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 71.1854762,
+          "lng": 31.1682684
+        },
+        "southwest": {
+          "lat": 57.959599,
+          "lng": 4.5000962
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 71.1854762,
+          "lng": 31.1497892
+        },
+        "southwest": {
+          "lat": 57.9709372,
+          "lng": 4.6266848
+        }
+      },
+      "location": {
+        "lat": 60.472024,
+        "lng": 8.468946
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "kuwait": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 30.1036993,
+          "lng": 48.4304579
+        },
+        "southwest": {
+          "lat": 28.5244463,
+          "lng": 46.5530399
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.1037061,
+          "lng": 48.4304579
+        },
+        "southwest": {
+          "lat": 28.5244463,
+          "lng": 46.5530399
+        }
+      },
+      "location": {
+        "lat": 29.31166,
+        "lng": 47.481766
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "somalia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.9886144,
+          "lng": 51.4130288
+        },
+        "southwest": {
+          "lat": -1.6620412,
+          "lng": 40.994373
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 11.9886144,
+          "lng": 51.4130288
+        },
+        "southwest": {
+          "lat": -1.6620412,
+          "lng": 40.994373
+        }
+      },
+      "location": {
+        "lat": 5.152149,
+        "lng": 46.199616
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bahrain": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.3303935,
+          "lng": 50.8228639
+        },
+        "southwest": {
+          "lat": 25.5798401,
+          "lng": 50.3781509
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 26.3303935,
+          "lng": 50.8228639
+        },
+        "southwest": {
+          "lat": 25.5798401,
+          "lng": 50.3781509
+        }
+      },
+      "location": {
+        "lat": 26.0667,
+        "lng": 50.5577
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "belarus": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 56.1718719,
+          "lng": 32.7768202
+        },
+        "southwest": {
+          "lat": 51.262011,
+          "lng": 23.1783377
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.1718719,
+          "lng": 32.7768202
+        },
+        "southwest": {
+          "lat": 51.262011,
+          "lng": 23.1783377
+        }
+      },
+      "location": {
+        "lat": 53.709807,
+        "lng": 27.953389
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint helena": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -7.888888,
+          "lng": -5.6339693
+        },
+        "southwest": {
+          "lat": -37.435315,
+          "lng": -14.4201565
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -15.9040096,
+          "lng": -5.6339693
+        },
+        "southwest": {
+          "lat": -16.0270467,
+          "lng": -5.7890001
+        }
+      },
+      "location": {
+        "lat": -15.9655282,
+        "lng": -5.7114847
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cuba": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 23.2767521,
+          "lng": -74.1322231
+        },
+        "southwest": {
+          "lat": 19.8258994,
+          "lng": -85.071256
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.2767521,
+          "lng": -74.1322231
+        },
+        "southwest": {
+          "lat": 19.8258994,
+          "lng": -85.071256
+        }
+      },
+      "location": {
+        "lat": 21.521757,
+        "lng": -77.781167
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "anguilla": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.595088,
+          "lng": -62.9224348
+        },
+        "southwest": {
+          "lat": 18.1499463,
+          "lng": -63.4289821
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.2965949,
+          "lng": -62.9224348
+        },
+        "southwest": {
+          "lat": 18.1499463,
+          "lng": -63.1908324
+        }
+      },
+      "location": {
+        "lat": 18.220554,
+        "lng": -63.068615
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "zambia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -8.2032836,
+          "lng": 33.7022218
+        },
+        "southwest": {
+          "lat": -18.077418,
+          "lng": 21.9963877
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -8.2032836,
+          "lng": 33.7022218
+        },
+        "southwest": {
+          "lat": -18.077418,
+          "lng": 21.9963877
+        }
+      },
+      "location": {
+        "lat": -13.133897,
+        "lng": 27.849332
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "french polynesia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -7.8956151,
+          "lng": -138.6094017
+        },
+        "southwest": {
+          "lat": -23.9062409,
+          "lng": -153.9916491
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -17.4944114,
+          "lng": -149.1251563
+        },
+        "southwest": {
+          "lat": -17.880432,
+          "lng": -149.6208875
+        }
+      },
+      "location": {
+        "lat": -17.679742,
+        "lng": -149.406843
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guatemala": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.8156973,
+          "lng": -88.2256154
+        },
+        "southwest": {
+          "lat": 13.7400214,
+          "lng": -92.2318359
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 17.8157114,
+          "lng": -88.2256154
+        },
+        "southwest": {
+          "lat": 13.7400214,
+          "lng": -92.2318359
+        }
+      },
+      "location": {
+        "lat": 15.783471,
+        "lng": -90.230759
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "zimbabwe": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -15.609319,
+          "lng": 33.0682357
+        },
+        "southwest": {
+          "lat": -22.4245232,
+          "lng": 25.237368
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -15.609319,
+          "lng": 33.0682357
+        },
+        "southwest": {
+          "lat": -22.4245232,
+          "lng": 25.237368
+        }
+      },
+      "location": {
+        "lat": -19.015438,
+        "lng": 29.154857
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "belgium": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 51.5051449,
+          "lng": 6.4081241
+        },
+        "southwest": {
+          "lat": 49.497013,
+          "lng": 2.5449406
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 51.5051449,
+          "lng": 6.4081241
+        },
+        "southwest": {
+          "lat": 49.497013,
+          "lng": 2.5449406
+        }
+      },
+      "location": {
+        "lat": 50.503887,
+        "lng": 4.469936
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "haiti": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 20.0896142,
+          "lng": -71.621754
+        },
+        "southwest": {
+          "lat": 18.0220783,
+          "lng": -74.4809103
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 20.0896142,
+          "lng": -71.621754
+        },
+        "southwest": {
+          "lat": 18.0220783,
+          "lng": -74.4809103
+        }
+      },
+      "location": {
+        "lat": 18.971187,
+        "lng": -72.285215
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "c\u00f4te d'ivoire": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 10.7400151,
+          "lng": -2.493031
+        },
+        "southwest": {
+          "lat": 4.3510071,
+          "lng": -8.6020589
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 10.7400151,
+          "lng": -2.493031
+        },
+        "southwest": {
+          "lat": 4.3510071,
+          "lng": -8.6020589
+        }
+      },
+      "location": {
+        "lat": 7.539989,
+        "lng": -5.54708
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "burkina faso": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 15.0851111,
+          "lng": 2.4042926
+        },
+        "southwest": {
+          "lat": 9.3938888,
+          "lng": -5.5211114
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 15.0851111,
+          "lng": 2.4042926
+        },
+        "southwest": {
+          "lat": 9.3938888,
+          "lng": -5.5211114
+        }
+      },
+      "location": {
+        "lat": 12.238333,
+        "lng": -1.561593
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "liberia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 8.551986,
+          "lng": -7.3692549
+        },
+        "southwest": {
+          "lat": 4.3154139,
+          "lng": -11.4742481
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 8.551986,
+          "lng": -7.3692549
+        },
+        "southwest": {
+          "lat": 4.3154139,
+          "lng": -11.4742481
+        }
+      },
+      "location": {
+        "lat": 6.428055,
+        "lng": -9.429499
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "kyrgyzstan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.2653569,
+          "lng": 80.2265594
+        },
+        "southwest": {
+          "lat": 39.180254,
+          "lng": 69.250998
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.2653569,
+          "lng": 80.2265594
+        },
+        "southwest": {
+          "lat": 39.180254,
+          "lng": 69.250998
+        }
+      },
+      "location": {
+        "lat": 41.20438,
+        "lng": 74.766098
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "netherlands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 53.5560213,
+          "lng": 7.2275102
+        },
+        "southwest": {
+          "lat": 50.7503838,
+          "lng": 3.357962
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 53.6756,
+          "lng": 7.2271405
+        },
+        "southwest": {
+          "lat": 50.7503837,
+          "lng": 3.3316
+        }
+      },
+      "location": {
+        "lat": 52.132633,
+        "lng": 5.291266
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "portugal": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.1542048,
+          "lng": -6.1902091
+        },
+        "southwest": {
+          "lat": 32.40374,
+          "lng": -31.275158
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.1542048,
+          "lng": -6.1902091
+        },
+        "southwest": {
+          "lat": 36.9601772,
+          "lng": -9.5171107
+        }
+      },
+      "location": {
+        "lat": 39.399872,
+        "lng": -8.224454
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "denmark": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 57.7518131,
+          "lng": 15.197235
+        },
+        "southwest": {
+          "lat": 54.5591211,
+          "lng": 8.0722409
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 57.7518131,
+          "lng": 12.7897501
+        },
+        "southwest": {
+          "lat": 54.5591211,
+          "lng": 8.0722409
+        }
+      },
+      "location": {
+        "lat": 56.26392,
+        "lng": 9.501785
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "philippines": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 19.5740241,
+          "lng": 126.6043837
+        },
+        "southwest": {
+          "lat": 4.6134443,
+          "lng": 116.7029193
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 19.5740241,
+          "lng": 126.6043837
+        },
+        "southwest": {
+          "lat": 4.6134443,
+          "lng": 116.7031627
+        }
+      },
+      "location": {
+        "lat": 12.879721,
+        "lng": 121.774017
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "montserrat": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 16.8240519,
+          "lng": -62.1441758
+        },
+        "southwest": {
+          "lat": 16.6746959,
+          "lng": -62.241517
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 16.8240519,
+          "lng": -62.1441758
+        },
+        "southwest": {
+          "lat": 16.6746959,
+          "lng": -62.241517
+        }
+      },
+      "location": {
+        "lat": 16.742498,
+        "lng": -62.187366
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "senegal": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 16.6930544,
+          "lng": -11.348607
+        },
+        "southwest": {
+          "lat": 12.3072891,
+          "lng": -17.5298482
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 16.6930544,
+          "lng": -11.348607
+        },
+        "southwest": {
+          "lat": 12.3072891,
+          "lng": -17.5298482
+        }
+      },
+      "location": {
+        "lat": 14.497401,
+        "lng": -14.452362
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "moldova": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 48.491944,
+          "lng": 30.162538
+        },
+        "southwest": {
+          "lat": 45.466904,
+          "lng": 26.6168559
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.491944,
+          "lng": 30.162538
+        },
+        "southwest": {
+          "lat": 45.466904,
+          "lng": 26.6168559
+        }
+      },
+      "location": {
+        "lat": 47.411631,
+        "lng": 28.369885
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "latvia": {
+     "geometry" : {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 57.085921,
+              "lng" : 24.3246659
+           },
+           "southwest" : {
+              "lat" : 56.8570279,
+              "lng" : 23.9336591
+           }
+        },
+        "location" : {
+           "lat" : 56.9496487,
+           "lng" : 24.1051864
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+           "northeast" : {
+              "lat" : 57.085921,
+              "lng" : 24.3246659
+           },
+           "southwest" : {
+              "lat" : 56.8570279,
+              "lng" : 23.9336591
+           }
+        }
+     },
+     "types" : [ "locality", "political" ]
+  },
+  "croatia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 46.5552234,
+          "lng": 19.4480523
+        },
+        "southwest": {
+          "lat": 42.3922652,
+          "lng": 13.4896912
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.5552234,
+          "lng": 19.4480523
+        },
+        "southwest": {
+          "lat": 42.3923464,
+          "lng": 13.4896912
+        }
+      },
+      "location": {
+        "lat": 45.1,
+        "lng": 15.2
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bosnia and herzegovina": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 45.2766262,
+          "lng": 19.621935
+        },
+        "southwest": {
+          "lat": 42.5564068,
+          "lng": 15.7223665
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.2766262,
+          "lng": 19.621935
+        },
+        "southwest": {
+          "lat": 42.5564068,
+          "lng": 15.7223665
+        }
+      },
+      "location": {
+        "lat": 43.915886,
+        "lng": 17.679076
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sri lanka": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 9.836001,
+          "lng": 81.8787029
+        },
+        "southwest": {
+          "lat": 5.9190779,
+          "lng": 79.6289063
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 9.836001,
+          "lng": 81.8787029
+        },
+        "southwest": {
+          "lat": 5.9190779,
+          "lng": 79.6289063
+        }
+      },
+      "location": {
+        "lat": 7.873054,
+        "lng": 80.771797
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mali": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 25.000012,
+          "lng": 4.2666666
+        },
+        "southwest": {
+          "lat": 10.147811,
+          "lng": -12.2388849
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0000585,
+          "lng": 4.2666666
+        },
+        "southwest": {
+          "lat": 10.147811,
+          "lng": -12.2388849
+        }
+      },
+      "location": {
+        "lat": 17.570692,
+        "lng": -3.996166
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bulgaria": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 44.2151244,
+          "lng": 28.6092632
+        },
+        "southwest": {
+          "lat": 41.2354469,
+          "lng": 22.3573446
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 44.2151244,
+          "lng": 28.6092632
+        },
+        "southwest": {
+          "lat": 41.2354469,
+          "lng": 22.3573446
+        }
+      },
+      "location": {
+        "lat": 42.733883,
+        "lng": 25.48583
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "jamaica": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.5253104,
+          "lng": -76.183159
+        },
+        "southwest": {
+          "lat": 17.7057243,
+          "lng": -78.3688461
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.5253104,
+          "lng": -76.183159
+        },
+        "southwest": {
+          "lat": 17.7057243,
+          "lng": -78.3688461
+        }
+      },
+      "location": {
+        "lat": 18.109581,
+        "lng": -77.297508
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "greenland": {
+     "geometry" : {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 64.204239,
+              "lng" : -51.65788629999999
+           },
+           "southwest" : {
+              "lat" : 64.15361949999999,
+              "lng" : -51.7545747
+           }
+        },
+        "location" : {
+           "lat" : 64.18361999999999,
+           "lng" : -51.721407
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+           "northeast" : {
+              "lat" : 64.204239,
+              "lng" : -51.65788629999999
+           },
+           "southwest" : {
+              "lat" : 64.15361949999999,
+              "lng" : -51.7545747
+           }
+        }
+     },
+     "types" : [ "locality", "political" ]
+  },
+  "samoa": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -13.4344024,
+          "lng": -171.405859
+        },
+        "southwest": {
+          "lat": -14.0765884,
+          "lng": -172.8031957
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -13.4344024,
+          "lng": -171.405859
+        },
+        "southwest": {
+          "lat": -14.0765884,
+          "lng": -172.8031957
+        }
+      },
+      "location": {
+        "lat": -13.759029,
+        "lng": -172.104629
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "american samoa": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -14.1551045,
+          "lng": -169.4185568
+        },
+        "southwest": {
+          "lat": -14.3824778,
+          "lng": -170.8468222
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -14.2294041,
+          "lng": -170.5455781
+        },
+        "southwest": {
+          "lat": -14.3824778,
+          "lng": -170.8468222
+        }
+      },
+      "location": {
+        "lat": -14.305941,
+        "lng": -170.6962002
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "lebanon": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 34.69209,
+          "lng": 36.62372
+        },
+        "southwest": {
+          "lat": 33.0550256,
+          "lng": 35.1037781
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 34.69209,
+          "lng": 36.62372
+        },
+        "southwest": {
+          "lat": 33.0550256,
+          "lng": 35.1037781
+        }
+      },
+      "location": {
+        "lat": 33.854721,
+        "lng": 35.862285
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "virgin islands, u.s.": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.41295,
+          "lng": -64.5654944
+        },
+        "southwest": {
+          "lat": 17.673884,
+          "lng": -65.0854569
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.41295,
+          "lng": -64.6488699
+        },
+        "southwest": {
+          "lat": 18.2739329,
+          "lng": -65.0854569
+        }
+      },
+      "location": {
+        "lat": 18.335765,
+        "lng": -64.896335
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "malaysia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 7.363468,
+          "lng": 119.2658119
+        },
+        "southwest": {
+          "lat": 0.8538209,
+          "lng": 99.640573
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 7.819847,
+          "lng": 119.813461
+        },
+        "southwest": {
+          "lat": 0.461421,
+          "lng": 99.422836
+        }
+      },
+      "location": {
+        "lat": 4.210484,
+        "lng": 101.975766
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "australia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -9.2210836,
+          "lng": 159.2555283
+        },
+        "southwest": {
+          "lat": -54.7772185,
+          "lng": 112.9214544
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -9.2268057,
+          "lng": 153.6386738
+        },
+        "southwest": {
+          "lat": -43.658327,
+          "lng": 112.9239721
+        }
+      },
+      "location": {
+        "lat": -25.274398,
+        "lng": 133.775136
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "christmas island": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -10.4123743,
+          "lng": 105.7126474
+        },
+        "southwest": {
+          "lat": -10.5700879,
+          "lng": 105.5333161
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -10.4123743,
+          "lng": 105.7126474
+        },
+        "southwest": {
+          "lat": -10.5700879,
+          "lng": 105.5333161
+        }
+      },
+      "location": {
+        "lat": -10.447525,
+        "lng": 105.690449
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mozambique": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -10.471202,
+          "lng": 40.8391213
+        },
+        "southwest": {
+          "lat": -26.8681086,
+          "lng": 30.2155496
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -10.471202,
+          "lng": 40.8391213
+        },
+        "southwest": {
+          "lat": -26.8681086,
+          "lng": 30.2155496
+        }
+      },
+      "location": {
+        "lat": -18.665695,
+        "lng": 35.529562
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sint maarten (dutch part)": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.1251338,
+          "lng": -62.9703926
+        },
+        "southwest": {
+          "lat": 18.0465756,
+          "lng": -63.1533267
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.1251338,
+          "lng": -62.9703926
+        },
+        "southwest": {
+          "lat": 18.0465756,
+          "lng": -63.1533267
+        }
+      },
+      "location": {
+        "lat": 18.08255,
+        "lng": -63.052251
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "greece": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 41.7490577,
+          "lng": 29.6451476
+        },
+        "southwest": {
+          "lat": 34.8010211,
+          "lng": 19.3724227
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.7490577,
+          "lng": 28.2469559
+        },
+        "southwest": {
+          "lat": 34.8010211,
+          "lng": 19.3735874
+        }
+      },
+      "location": {
+        "lat": 39.074208,
+        "lng": 21.824312
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "nicaragua": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 15.0302755,
+          "lng": -82.5920716
+        },
+        "southwest": {
+          "lat": 10.7080549,
+          "lng": -87.6910686
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 15.0302755,
+          "lng": -82.5920716
+        },
+        "southwest": {
+          "lat": 10.7080549,
+          "lng": -87.6910686
+        }
+      },
+      "location": {
+        "lat": 12.865416,
+        "lng": -85.207229
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "new zealand": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -29.2313419,
+          "lng": -176.1542248
+        },
+        "southwest": {
+          "lat": -52.6194185,
+          "lng": 165.8694369
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -34.1295578,
+          "lng": 179.0625357
+        },
+        "southwest": {
+          "lat": -47.7681241,
+          "lng": 166.4261361
+        }
+      },
+      "location": {
+        "lat": -40.900557,
+        "lng": 174.885971
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "brazil": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 5.2716019,
+          "lng": -32.3783265
+        },
+        "southwest": {
+          "lat": -33.7517528,
+          "lng": -73.982817
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.2716019,
+          "lng": -32.3796061
+        },
+        "southwest": {
+          "lat": -33.7509909,
+          "lng": -73.982817
+        }
+      },
+      "location": {
+        "lat": -14.235004,
+        "lng": -51.92528
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "afghanistan": {
+     "geometry" : {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 34.60947549999999,
+              "lng" : 69.4026947
+           },
+           "southwest" : {
+              "lat" : 34.4312663,
+              "lng" : 68.99894710000001
+           }
+        },
+        "location" : {
+           "lat" : 34.528455,
+           "lng" : 69.1717029
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+           "northeast" : {
+              "lat" : 34.60947549999999,
+              "lng" : 69.4026947
+           },
+           "southwest" : {
+              "lat" : 34.4312663,
+              "lng" : 68.99894710000001
+           }
+        }
+     },
+     "partial_match" : true,
+     "types" : [ "locality", "political" ]
+  },
+  "qatar": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.1830927,
+          "lng": 51.6432601
+        },
+        "southwest": {
+          "lat": 24.471118,
+          "lng": 50.7500553
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 26.1830927,
+          "lng": 51.6432601
+        },
+        "southwest": {
+          "lat": 24.471118,
+          "lng": 50.7500553
+        }
+      },
+      "location": {
+        "lat": 25.354826,
+        "lng": 51.183884
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "palau": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 8.238674,
+          "lng": 135.0769
+        },
+        "southwest": {
+          "lat": 2.9991202,
+          "lng": 131.0620325
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 8.238674,
+          "lng": 135.0769
+        },
+        "southwest": {
+          "lat": 2.9991202,
+          "lng": 131.0620325
+        }
+      },
+      "location": {
+        "lat": 7.51498,
+        "lng": 134.58252
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "turkmenistan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.798844,
+          "lng": 66.7073531
+        },
+        "southwest": {
+          "lat": 35.12876,
+          "lng": 52.4477432
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.798844,
+          "lng": 66.7073531
+        },
+        "southwest": {
+          "lat": 35.12876,
+          "lng": 52.4477432
+        }
+      },
+      "location": {
+        "lat": 38.969719,
+        "lng": 59.556278
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "equatorial guinea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 3.7881426,
+          "lng": 11.3333
+        },
+        "southwest": {
+          "lat": -1.4599463,
+          "lng": 5.602367
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 2.3494157,
+          "lng": 11.3333
+        },
+        "southwest": {
+          "lat": 0.8871964,
+          "lng": 9.3017292
+        }
+      },
+      "location": {
+        "lat": 1.650801,
+        "lng": 10.267895
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "pitcairn": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -23.9144684,
+          "lng": -124.7721577
+        },
+        "southwest": {
+          "lat": -25.0798075,
+          "lng": -130.7507801
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -24.3304859,
+          "lng": -128.2916879
+        },
+        "southwest": {
+          "lat": -24.4224955,
+          "lng": -128.3570479
+        }
+      },
+      "location": {
+        "lat": -24.3764907,
+        "lng": -128.3243679
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guinea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.6746168,
+          "lng": -7.637853
+        },
+        "southwest": {
+          "lat": 7.1909091,
+          "lng": -15.0782061
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.6746168,
+          "lng": -7.637853
+        },
+        "southwest": {
+          "lat": 7.1909091,
+          "lng": -15.0782061
+        }
+      },
+      "location": {
+        "lat": 9.945587,
+        "lng": -9.696645
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "panama": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 9.647779,
+          "lng": -77.158488
+        },
+        "southwest": {
+          "lat": 7.2035564,
+          "lng": -83.0522411
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 9.6476098,
+          "lng": -77.158488
+        },
+        "southwest": {
+          "lat": 7.2035564,
+          "lng": -83.0522411
+        }
+      },
+      "location": {
+        "lat": 8.537981,
+        "lng": -80.782127
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "nepal": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 30.4469452,
+          "lng": 88.1992978
+        },
+        "southwest": {
+          "lat": 26.3477794,
+          "lng": 80.0522222
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 30.4469452,
+          "lng": 88.1992978
+        },
+        "southwest": {
+          "lat": 26.3477794,
+          "lng": 80.0522222
+        }
+      },
+      "location": {
+        "lat": 28.394857,
+        "lng": 84.124008
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "central african republic": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.0179569,
+          "lng": 27.4583051
+        },
+        "southwest": {
+          "lat": 2.2208575,
+          "lng": 14.4150981
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 11.0179569,
+          "lng": 27.4583051
+        },
+        "southwest": {
+          "lat": 2.2208575,
+          "lng": 14.4150981
+        }
+      },
+      "location": {
+        "lat": 6.611111,
+        "lng": 20.939444
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "luxembourg": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 50.18282,
+          "lng": 6.5309701
+        },
+        "southwest": {
+          "lat": 49.447779,
+          "lng": 5.7356699
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 50.18282,
+          "lng": 6.5309701
+        },
+        "southwest": {
+          "lat": 49.447779,
+          "lng": 5.7356699
+        }
+      },
+      "location": {
+        "lat": 49.815273,
+        "lng": 6.129583
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "comoros": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -11.3646394,
+          "lng": 44.5405698
+        },
+        "southwest": {
+          "lat": -12.4138212,
+          "lng": 43.2194215
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -11.3646394,
+          "lng": 43.5257721
+        },
+        "southwest": {
+          "lat": -11.9393224,
+          "lng": 43.2194215
+        }
+      },
+      "location": {
+        "lat": -11.6455,
+        "lng": 43.3333
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "solomon islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -6.5892403,
+          "lng": 167.283081
+        },
+        "southwest": {
+          "lat": -11.8634581,
+          "lng": 155.4862405
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -6.5892403,
+          "lng": 162.8885409
+        },
+        "southwest": {
+          "lat": -11.8634581,
+          "lng": 155.4862405
+        }
+      },
+      "location": {
+        "lat": -9.64571,
+        "lng": 160.156194
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "swaziland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -25.7185194,
+          "lng": 32.1348445
+        },
+        "southwest": {
+          "lat": -27.3173633,
+          "lng": 30.7910943
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.7185194,
+          "lng": 32.1348445
+        },
+        "southwest": {
+          "lat": -27.3173633,
+          "lng": 30.7910943
+        }
+      },
+      "location": {
+        "lat": -26.522503,
+        "lng": 31.465866
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cook islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -8.916606,
+          "lng": -157.3216064
+        },
+        "southwest": {
+          "lat": -21.9591364,
+          "lng": -165.8783468
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -21.1986952,
+          "lng": -159.7237467
+        },
+        "southwest": {
+          "lat": -21.273064,
+          "lng": -159.8313471
+        }
+      },
+      "location": {
+        "lat": -21.236736,
+        "lng": -159.777671
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "iceland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 66.5663183,
+          "lng": -13.4958153
+        },
+        "southwest": {
+          "lat": 63.2961021,
+          "lng": -24.5465239
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 66.5663183,
+          "lng": -13.4958153
+        },
+        "southwest": {
+          "lat": 63.2961021,
+          "lng": -24.5465239
+        }
+      },
+      "location": {
+        "lat": 64.963051,
+        "lng": -19.020835
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "namibia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -16.9634854,
+          "lng": 25.2617519
+        },
+        "southwest": {
+          "lat": -28.9706387,
+          "lng": 11.7242468
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -16.9634854,
+          "lng": 25.2617519
+        },
+        "southwest": {
+          "lat": -28.9706387,
+          "lng": 11.7242468
+        }
+      },
+      "location": {
+        "lat": -22.95764,
+        "lng": 18.49041
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "nauru": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -0.5026395,
+          "lng": 166.9589281
+        },
+        "southwest": {
+          "lat": -0.5541894,
+          "lng": 166.9095486
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -0.5026395,
+          "lng": 166.9589281
+        },
+        "southwest": {
+          "lat": -0.5541894,
+          "lng": 166.9095486
+        }
+      },
+      "location": {
+        "lat": -0.522778,
+        "lng": 166.931503
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "iran": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 39.7816755,
+          "lng": 63.3333366
+        },
+        "southwest": {
+          "lat": 25.0594286,
+          "lng": 44.0318907
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.7816755,
+          "lng": 63.3333366
+        },
+        "southwest": {
+          "lat": 25.0594286,
+          "lng": 44.0318907
+        }
+      },
+      "location": {
+        "lat": 32.427908,
+        "lng": 53.688046
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "british indian ocean territory": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -5.2356445,
+          "lng": 72.4946969
+        },
+        "southwest": {
+          "lat": -7.4440709,
+          "lng": 71.2365532
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -7.2254403,
+          "lng": 72.4946969
+        },
+        "southwest": {
+          "lat": -7.4440709,
+          "lng": 72.3537682
+        }
+      },
+      "location": {
+        "lat": -7.3347556,
+        "lng": 72.4242325
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "united arab emirates": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.0696541,
+          "lng": 56.3815785
+        },
+        "southwest": {
+          "lat": 22.6315138,
+          "lng": 51.4997702
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 26.0696541,
+          "lng": 56.3815785
+        },
+        "southwest": {
+          "lat": 22.6315138,
+          "lng": 51.4997702
+        }
+      },
+      "location": {
+        "lat": 23.424076,
+        "lng": 53.847818
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "south georgia and the south sandwich islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -53.9749413,
+          "lng": -26.2689113
+        },
+        "southwest": {
+          "lat": -59.4842948,
+          "lng": -38.2436013
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -53.9749413,
+          "lng": -35.7712118
+        },
+        "southwest": {
+          "lat": -54.8864403,
+          "lng": -38.2436013
+        }
+      },
+      "location": {
+        "lat": -54.429579,
+        "lng": -36.587909
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint kitts and nevis": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.4182012,
+          "lng": -62.5396943
+        },
+        "southwest": {
+          "lat": 17.094157,
+          "lng": -62.8646171
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 17.4182012,
+          "lng": -62.5396943
+        },
+        "southwest": {
+          "lat": 17.094157,
+          "lng": -62.8646171
+        }
+      },
+      "location": {
+        "lat": 17.357822,
+        "lng": -62.782998
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "trinidad and tobago": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.3625357,
+          "lng": -60.4924177
+        },
+        "southwest": {
+          "lat": 10.0431694,
+          "lng": -61.9310689
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 10.8470286,
+          "lng": -60.9073126
+        },
+        "southwest": {
+          "lat": 10.0431694,
+          "lng": -61.9310689
+        }
+      },
+      "location": {
+        "lat": 10.691803,
+        "lng": -61.222503
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "paraguay": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -19.2877065,
+          "lng": -54.258562
+        },
+        "southwest": {
+          "lat": -27.5883343,
+          "lng": -62.6380511
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -19.2877065,
+          "lng": -54.258562
+        },
+        "southwest": {
+          "lat": -27.5883343,
+          "lng": -62.6380511
+        }
+      },
+      "location": {
+        "lat": -23.442503,
+        "lng": -58.443832
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "china": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 53.560974,
+          "lng": 134.7728099
+        },
+        "southwest": {
+          "lat": 18.1535216,
+          "lng": 73.4994136
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 53.560974,
+          "lng": 134.7728099
+        },
+        "southwest": {
+          "lat": 18.1535216,
+          "lng": 73.4994136
+        }
+      },
+      "location": {
+        "lat": 35.86166,
+        "lng": 104.195397
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "armenia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 41.300993,
+          "lng": 46.634222
+        },
+        "southwest": {
+          "lat": 38.840244,
+          "lng": 43.4472118
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.300993,
+          "lng": 46.634222
+        },
+        "southwest": {
+          "lat": 38.840244,
+          "lng": 43.4472118
+        }
+      },
+      "location": {
+        "lat": 40.069099,
+        "lng": 45.038189
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "thailand": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 20.465143,
+          "lng": 105.636812
+        },
+        "southwest": {
+          "lat": 5.6127293,
+          "lng": 97.343396
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 20.465143,
+          "lng": 105.636812
+        },
+        "southwest": {
+          "lat": 5.6127293,
+          "lng": 97.343396
+        }
+      },
+      "location": {
+        "lat": 15.870032,
+        "lng": 100.992541
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "belize": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.4959419,
+          "lng": -87.4917269
+        },
+        "southwest": {
+          "lat": 15.8856189,
+          "lng": -89.2275879
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.4959419,
+          "lng": -87.4917269
+        },
+        "southwest": {
+          "lat": 15.8856189,
+          "lng": -89.2275879
+        }
+      },
+      "location": {
+        "lat": 17.189877,
+        "lng": -88.49765
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bangladesh": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.6342434,
+          "lng": 92.6801153
+        },
+        "southwest": {
+          "lat": 20.7543802,
+          "lng": 88.0085887
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 26.6342434,
+          "lng": 92.6801153
+        },
+        "southwest": {
+          "lat": 20.7543802,
+          "lng": 88.0085887
+        }
+      },
+      "location": {
+        "lat": 23.684994,
+        "lng": 90.356331
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "ukraine": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 52.379581,
+          "lng": 40.2285809
+        },
+        "southwest": {
+          "lat": 44.386463,
+          "lng": 22.1371589
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.379581,
+          "lng": 40.2285809
+        },
+        "southwest": {
+          "lat": 44.386463,
+          "lng": 22.1371589
+        }
+      },
+      "location": {
+        "lat": 48.379433,
+        "lng": 31.16558
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guadeloupe": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 16.514251,
+          "lng": -61.0016727
+        },
+        "southwest": {
+          "lat": 15.8319387,
+          "lng": -61.8090819
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 16.514251,
+          "lng": -61.0016727
+        },
+        "southwest": {
+          "lat": 15.8319387,
+          "lng": -61.8090819
+        }
+      },
+      "location": {
+        "lat": 16.265,
+        "lng": -61.551
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "northern mariana islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 20.5534826,
+          "lng": 146.0646485
+        },
+        "southwest": {
+          "lat": 14.1103823,
+          "lng": 144.886365
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 15.2902597,
+          "lng": 145.8305513
+        },
+        "southwest": {
+          "lat": 14.9225229,
+          "lng": 145.5823444
+        }
+      },
+      "location": {
+        "lat": 15.0979,
+        "lng": 145.6739
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "libya": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 33.1667871,
+          "lng": 25.146954
+        },
+        "southwest": {
+          "lat": 19.5004298,
+          "lng": 9.3914664
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.1667871,
+          "lng": 25.146954
+        },
+        "southwest": {
+          "lat": 19.5004298,
+          "lng": 9.3914664
+        }
+      },
+      "location": {
+        "lat": 27.0567769,
+        "lng": 14.5280405
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mayotte": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -12.6364115,
+          "lng": 45.3000288
+        },
+        "southwest": {
+          "lat": -13.0061614,
+          "lng": 45.0181707
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -12.6364115,
+          "lng": 45.3000288
+        },
+        "southwest": {
+          "lat": -13.0061614,
+          "lng": 45.0181707
+        }
+      },
+      "location": {
+        "lat": -12.8275,
+        "lng": 45.166244
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "gambia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.8263891,
+          "lng": -13.7986107
+        },
+        "southwest": {
+          "lat": 13.0651826,
+          "lng": -16.8136312
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.8263891,
+          "lng": -13.7986107
+        },
+        "southwest": {
+          "lat": 13.0651826,
+          "lng": -16.8136312
+        }
+      },
+      "location": {
+        "lat": 13.443182,
+        "lng": -15.310139
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "norfolk island": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -28.9953881,
+          "lng": 167.9969269
+        },
+        "southwest": {
+          "lat": -29.1365875,
+          "lng": 167.9162192
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -28.9953881,
+          "lng": 167.9969269
+        },
+        "southwest": {
+          "lat": -29.0751408,
+          "lng": 167.9162192
+        }
+      },
+      "location": {
+        "lat": -29.040835,
+        "lng": 167.954712
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "finland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 70.0922932,
+          "lng": 31.5870999
+        },
+        "southwest": {
+          "lat": 59.7025822,
+          "lng": 20.5474108
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 70.0922932,
+          "lng": 31.5870999
+        },
+        "southwest": {
+          "lat": 59.7370386,
+          "lng": 20.5474108
+        }
+      },
+      "location": {
+        "lat": 61.92411,
+        "lng": 25.748151
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "macedonia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.373646,
+          "lng": 23.034093
+        },
+        "southwest": {
+          "lat": 40.8537826,
+          "lng": 20.452423
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.373646,
+          "lng": 23.034093
+        },
+        "southwest": {
+          "lat": 40.8537826,
+          "lng": 20.452423
+        }
+      },
+      "location": {
+        "lat": 41.608635,
+        "lng": 21.745275
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mauritius": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -10.3192548,
+          "lng": 63.5035945
+        },
+        "southwest": {
+          "lat": -20.5255121,
+          "lng": 56.5127181
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -18.7763,
+          "lng": 59.5844
+        },
+        "southwest": {
+          "lat": -21.637,
+          "lng": 55.7666
+        }
+      },
+      "location": {
+        "lat": -20.348404,
+        "lng": 57.552152
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "marshall islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.673255,
+          "lng": 172.1701812
+        },
+        "southwest": {
+          "lat": 4.5729556,
+          "lng": 160.7979585
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 7.1695343,
+          "lng": 171.38497
+        },
+        "southwest": {
+          "lat": 7.0521928,
+          "lng": 171.0271633
+        }
+      },
+      "location": {
+        "lat": 7.131474,
+        "lng": 171.184478
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "niue": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -18.95297,
+          "lng": -169.7743248
+        },
+        "southwest": {
+          "lat": -19.1555664,
+          "lng": -169.9498487
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -18.95297,
+          "lng": -169.7743248
+        },
+        "southwest": {
+          "lat": -19.1555664,
+          "lng": -169.9498487
+        }
+      },
+      "location": {
+        "lat": -19.054445,
+        "lng": -169.867233
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "dominican republic": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 19.9317185,
+          "lng": -68.3234068
+        },
+        "southwest": {
+          "lat": 17.4700909,
+          "lng": -72.0075099
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 19.9317185,
+          "lng": -68.3234068
+        },
+        "southwest": {
+          "lat": 17.4700909,
+          "lng": -72.0075099
+        }
+      },
+      "location": {
+        "lat": 18.735693,
+        "lng": -70.162651
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "jersey": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 49.2621314,
+          "lng": -2.0104646
+        },
+        "southwest": {
+          "lat": 49.1601217,
+          "lng": -2.2548011
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 49.2621314,
+          "lng": -2.0104646
+        },
+        "southwest": {
+          "lat": 49.1601217,
+          "lng": -2.2548011
+        }
+      },
+      "location": {
+        "lat": 49.214439,
+        "lng": -2.13125
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "pakistan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.084107,
+          "lng": 77.8334695
+        },
+        "southwest": {
+          "lat": 23.6946946,
+          "lng": 60.8729721
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.084107,
+          "lng": 77.8334695
+        },
+        "southwest": {
+          "lat": 23.6946946,
+          "lng": 60.8729721
+        }
+      },
+      "location": {
+        "lat": 30.375321,
+        "lng": 69.345116
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "romania": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 48.265274,
+          "lng": 29.7571015
+        },
+        "southwest": {
+          "lat": 43.6186193,
+          "lng": 20.2617593
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.265274,
+          "lng": 29.7571015
+        },
+        "southwest": {
+          "lat": 43.6186193,
+          "lng": 20.2617593
+        }
+      },
+      "location": {
+        "lat": 45.943161,
+        "lng": 24.96676
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "seychelles": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -4.2097858,
+          "lng": 56.294294
+        },
+        "southwest": {
+          "lat": -10.2270331,
+          "lng": 46.1977848
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -4.5609817,
+          "lng": 55.5391695
+        },
+        "southwest": {
+          "lat": -4.8067924,
+          "lng": 55.3599142
+        }
+      },
+      "location": {
+        "lat": -4.679574,
+        "lng": 55.491977
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "czech republic": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 51.0557185,
+          "lng": 18.8592361
+        },
+        "southwest": {
+          "lat": 48.5518081,
+          "lng": 12.090589
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 51.0557185,
+          "lng": 18.8592361
+        },
+        "southwest": {
+          "lat": 48.5518081,
+          "lng": 12.090589
+        }
+      },
+      "location": {
+        "lat": 49.817492,
+        "lng": 15.472962
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "myanmar": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 28.5478351,
+          "lng": 101.1702717
+        },
+        "southwest": {
+          "lat": 9.5990325,
+          "lng": 92.171808
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 28.5478351,
+          "lng": 101.1702717
+        },
+        "southwest": {
+          "lat": 9.5990325,
+          "lng": 92.171808
+        }
+      },
+      "location": {
+        "lat": 21.913965,
+        "lng": 95.956223
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "egypt": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 31.671535,
+          "lng": 36.8945446
+        },
+        "southwest": {
+          "lat": 21.9999999,
+          "lng": 24.6967748
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 31.671535,
+          "lng": 36.8945446
+        },
+        "southwest": {
+          "lat": 21.9999999,
+          "lng": 24.6967748
+        }
+      },
+      "location": {
+        "lat": 26.820553,
+        "lng": 30.802498
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guam": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.6542247,
+          "lng": 144.9565361
+        },
+        "southwest": {
+          "lat": 13.2461906,
+          "lng": 144.6183806
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.6542247,
+          "lng": 144.9565361
+        },
+        "southwest": {
+          "lat": 13.2461906,
+          "lng": 144.6183806
+        }
+      },
+      "location": {
+        "lat": 13.444304,
+        "lng": 144.793731
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "papua new guinea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -0.8713195,
+          "lng": 159.4929588
+        },
+        "southwest": {
+          "lat": -11.6578607,
+          "lng": 140.8419695
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -0.8713195,
+          "lng": 157.0857238
+        },
+        "southwest": {
+          "lat": -11.6578607,
+          "lng": 140.8419695
+        }
+      },
+      "location": {
+        "lat": -6.314993,
+        "lng": 143.95555
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "united states": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.09024,
+          "lng": -90.9093464
+        },
+        "southwest": {
+          "lat": 29.3218521,
+          "lng": -95.712891
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 49.38,
+          "lng": -66.94
+        },
+        "southwest": {
+          "lat": 25.82,
+          "lng": -124.39
+        }
+      },
+      "location": {
+        "lat": 37.09024,
+        "lng": -95.712891
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "austria": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 49.0206081,
+          "lng": 17.1606862
+        },
+        "southwest": {
+          "lat": 46.3723358,
+          "lng": 9.5307834
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 49.0206081,
+          "lng": 17.1606862
+        },
+        "southwest": {
+          "lat": 46.3723358,
+          "lng": 9.5307834
+        }
+      },
+      "location": {
+        "lat": 47.516231,
+        "lng": 14.550072
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "congo": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 3.707791,
+          "lng": 18.6436111
+        },
+        "southwest": {
+          "lat": -5.0289487,
+          "lng": 11.1495478
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 3.707791,
+          "lng": 18.6436111
+        },
+        "southwest": {
+          "lat": -5.0289487,
+          "lng": 11.1495478
+        }
+      },
+      "location": {
+        "lat": -0.228021,
+        "lng": 15.827659
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "micronesia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 10.0903783,
+          "lng": 163.0355912
+        },
+        "southwest": {
+          "lat": 3.8224419,
+          "lng": 136.9226075
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 10.084629,
+          "lng": 138.9550782
+        },
+        "southwest": {
+          "lat": 7.6296619,
+          "lng": 136.9226075
+        }
+      },
+      "location": {
+        "lat": 8.8571455,
+        "lng": 137.9388429
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "colombia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.3973501,
+          "lng": -66.851923
+        },
+        "southwest": {
+          "lat": -4.22711,
+          "lng": -81.7359299
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.458457,
+          "lng": -66.851923
+        },
+        "southwest": {
+          "lat": -4.22711,
+          "lng": -79.0083503
+        }
+      },
+      "location": {
+        "lat": 4.570868,
+        "lng": -74.297333
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "vatican city": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 41.9075614,
+          "lng": 12.4584798
+        },
+        "southwest": {
+          "lat": 41.9001977,
+          "lng": 12.445687
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.9075614,
+          "lng": 12.4584798
+        },
+        "southwest": {
+          "lat": 41.9001977,
+          "lng": 12.445687
+        }
+      },
+      "location": {
+        "lat": 41.902916,
+        "lng": 12.453389
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cura\u00e7ao": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.3924356,
+          "lng": -68.6398315
+        },
+        "southwest": {
+          "lat": 11.9780353,
+          "lng": -69.1624547
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.3924356,
+          "lng": -68.7367168
+        },
+        "southwest": {
+          "lat": 12.0343262,
+          "lng": -69.1624547
+        }
+      },
+      "location": {
+        "lat": 12.16957,
+        "lng": -68.99002
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "niger": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 23.5000002,
+          "lng": 15.9990339
+        },
+        "southwest": {
+          "lat": 11.693756,
+          "lng": 0.1666672
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.5000002,
+          "lng": 15.9990339
+        },
+        "southwest": {
+          "lat": 11.693756,
+          "lng": 0.1666672
+        }
+      },
+      "location": {
+        "lat": 17.607789,
+        "lng": 8.081666
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "fiji": {
+    "geometry" : {
+        "location" : {
+           "lat" : -18,
+           "lng" : 178
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+           "northeast" : {
+              "lat" : -17.8301284,
+              "lng" : 178.2561188
+           },
+           "southwest" : {
+              "lat" : -18.1697081,
+              "lng" : 177.7438812
+           }
+        }
+     },
+     "types" : [ "natural_feature", "establishment" ]
+  },
+  "\u00e5land islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 60.7411127,
+          "lng": 21.4858534
+        },
+        "southwest": {
+          "lat": 59.7272227,
+          "lng": 19.2633194
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 60.6649823,
+          "lng": 21.4782659
+        },
+        "southwest": {
+          "lat": 59.7342615,
+          "lng": 19.2789885
+        }
+      },
+      "location": {
+        "lat": 60.3385485,
+        "lng": 20.2712585
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "turkey": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.1062391,
+          "lng": 44.818128
+        },
+        "southwest": {
+          "lat": 35.8076804,
+          "lng": 25.6636372
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.1060909,
+          "lng": 44.818128
+        },
+        "southwest": {
+          "lat": 35.8076804,
+          "lng": 25.6636372
+        }
+      },
+      "location": {
+        "lat": 38.963745,
+        "lng": 35.243322
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "andorra": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.655791,
+          "lng": 1.786639
+        },
+        "southwest": {
+          "lat": 42.4287488,
+          "lng": 1.4087052
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.655791,
+          "lng": 1.786639
+        },
+        "southwest": {
+          "lat": 42.4287488,
+          "lng": 1.4087052
+        }
+      },
+      "location": {
+        "lat": 42.506285,
+        "lng": 1.521801
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "madagascar": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -11.9519639,
+          "lng": 50.4837799
+        },
+        "southwest": {
+          "lat": -25.6065717,
+          "lng": 43.1851395
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -11.9519639,
+          "lng": 50.4837799
+        },
+        "southwest": {
+          "lat": -25.6065717,
+          "lng": 43.1851395
+        }
+      },
+      "location": {
+        "lat": -18.766947,
+        "lng": 46.869107
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "iraq": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.380932,
+          "lng": 48.5759163
+        },
+        "southwest": {
+          "lat": 29.0612079,
+          "lng": 38.7936029
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.380932,
+          "lng": 48.5759163
+        },
+        "southwest": {
+          "lat": 29.0612079,
+          "lng": 38.7936029
+        }
+      },
+      "location": {
+        "lat": 33.223191,
+        "lng": 43.679291
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "estonia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 59.7003026,
+          "lng": 28.2101389
+        },
+        "southwest": {
+          "lat": 57.509316,
+          "lng": 21.7643132
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 59.7002833,
+          "lng": 28.2101389
+        },
+        "southwest": {
+          "lat": 57.509316,
+          "lng": 21.7643721
+        }
+      },
+      "location": {
+        "lat": 58.595272,
+        "lng": 25.013607
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mauritania": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 27.2944447,
+          "lng": -4.8333343
+        },
+        "southwest": {
+          "lat": 14.721273,
+          "lng": -17.0701337
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 27.2944447,
+          "lng": -4.8333343
+        },
+        "southwest": {
+          "lat": 14.721273,
+          "lng": -17.0701337
+        }
+      },
+      "location": {
+        "lat": 21.00789,
+        "lng": -10.940835
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "mexico": {
+    "geometry": {
+      "location_type": "GEOMETRIC_CENTER",
+      "bounds": {
+        "northeast": {
+          "lat": 18.8728491,
+          "lng": -99.208727
+        },
+        "southwest": {
+          "lat": 18.86371,
+          "lng": -99.2091996
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.8728491,
+          "lng": -99.207614319708
+        },
+        "southwest": {
+          "lat": 18.86371,
+          "lng": -99.210312280292
+        }
+      },
+      "location": {
+        "lat": 18.868392,
+        "lng": -99.2089372
+      }
+    },
+    "types": [
+      "route"
+    ]
+  },
+  "france": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 51.0889618,
+          "lng": 9.5600678
+        },
+        "southwest": {
+          "lat": 41.3423276,
+          "lng": -5.1412279
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 51.0889618,
+          "lng": 9.5597934
+        },
+        "southwest": {
+          "lat": 41.3423276,
+          "lng": -5.140402
+        }
+      },
+      "location": {
+        "lat": 46.227638,
+        "lng": 2.213749
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bahamas": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 27.263362,
+          "lng": -72.7120686
+        },
+        "southwest": {
+          "lat": 20.9121311,
+          "lng": -80.4749466
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 27.263362,
+          "lng": -72.7120686
+        },
+        "southwest": {
+          "lat": 20.9121311,
+          "lng": -80.4749466
+        }
+      },
+      "location": {
+        "lat": 25.03428,
+        "lng": -77.39628
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "slovakia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 49.6138051,
+          "lng": 22.5592818
+        },
+        "southwest": {
+          "lat": 47.731159,
+          "lng": 16.8331821
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 49.6138051,
+          "lng": 22.5592818
+        },
+        "southwest": {
+          "lat": 47.731159,
+          "lng": 16.8331821
+        }
+      },
+      "location": {
+        "lat": 48.669026,
+        "lng": 19.699024
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "gibraltar": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 36.1551188,
+          "lng": -5.3384194
+        },
+        "southwest": {
+          "lat": 36.1088348,
+          "lng": -5.3674154
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.1551188,
+          "lng": -5.3384194
+        },
+        "southwest": {
+          "lat": 36.1088348,
+          "lng": -5.3674154
+        }
+      },
+      "location": {
+        "lat": 36.140751,
+        "lng": -5.353585
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "peru": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -0.038777,
+          "lng": -68.652329
+        },
+        "southwest": {
+          "lat": -18.3515803,
+          "lng": -81.3285041
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -0.038777,
+          "lng": -68.652329
+        },
+        "southwest": {
+          "lat": -18.3515803,
+          "lng": -81.3285041
+        }
+      },
+      "location": {
+        "lat": -9.189967,
+        "lng": -75.015152
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "palestine": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 32.5520999,
+          "lng": 35.5740521
+        },
+        "southwest": {
+          "lat": 31.219691,
+          "lng": 34.2187187
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.5520999,
+          "lng": 35.5740521
+        },
+        "southwest": {
+          "lat": 31.342602,
+          "lng": 34.880274
+        }
+      },
+      "location": {
+        "lat": 31.952162,
+        "lng": 35.233154
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "aruba": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.6233784,
+          "lng": -69.86588
+        },
+        "southwest": {
+          "lat": 12.4117656,
+          "lng": -70.0660256
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.6233784,
+          "lng": -69.86588
+        },
+        "southwest": {
+          "lat": 12.4117656,
+          "lng": -70.0660256
+        }
+      },
+      "location": {
+        "lat": 12.52111,
+        "lng": -69.968338
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "south korea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 38.6169312,
+          "lng": 130.9232178
+        },
+        "southwest": {
+          "lat": 33.1061095,
+          "lng": 124.6081391
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.6169312,
+          "lng": 129.5846711
+        },
+        "southwest": {
+          "lat": 33.1061095,
+          "lng": 124.6081391
+        }
+      },
+      "location": {
+        "lat": 35.907757,
+        "lng": 127.766922
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bolivia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -9.669323,
+          "lng": -57.453803
+        },
+        "southwest": {
+          "lat": -22.8980899,
+          "lng": -69.64499
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -9.669323,
+          "lng": -57.453803
+        },
+        "southwest": {
+          "lat": -22.8980899,
+          "lng": -69.64499
+        }
+      },
+      "location": {
+        "lat": -16.290154,
+        "lng": -63.588653
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "malawi": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -9.3671539,
+          "lng": 35.9241664
+        },
+        "southwest": {
+          "lat": -17.1352784,
+          "lng": 32.6788891
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -9.3671539,
+          "lng": 35.9241664
+        },
+        "southwest": {
+          "lat": -17.1352784,
+          "lng": 32.6788891
+        }
+      },
+      "location": {
+        "lat": -13.254308,
+        "lng": 34.301525
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "ecuador": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 1.6872113,
+          "lng": -75.188794
+        },
+        "southwest": {
+          "lat": -5.0143511,
+          "lng": -92.0130485
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.428418,
+          "lng": -75.188794
+        },
+        "southwest": {
+          "lat": -5.0143511,
+          "lng": -81.0849809
+        }
+      },
+      "location": {
+        "lat": -1.831239,
+        "lng": -78.183406
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "israel": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 33.332805,
+          "lng": 35.896244
+        },
+        "southwest": {
+          "lat": 29.4906463,
+          "lng": 34.2673871
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.332805,
+          "lng": 35.896244
+        },
+        "southwest": {
+          "lat": 29.4906463,
+          "lng": 34.2673871
+        }
+      },
+      "location": {
+        "lat": 31.046051,
+        "lng": 34.851612
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "albania": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 42.6610819,
+          "lng": 21.0572394
+        },
+        "southwest": {
+          "lat": 39.6447296,
+          "lng": 19.2639041
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 42.6610819,
+          "lng": 21.0572394
+        },
+        "southwest": {
+          "lat": 39.6447296,
+          "lng": 19.2639041
+        }
+      },
+      "location": {
+        "lat": 41.153332,
+        "lng": 20.168331
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "ireland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 55.3885,
+          "lng": -5.9947001
+        },
+        "southwest": {
+          "lat": 51.4219377,
+          "lng": -10.66958
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.38671,
+          "lng": -5.99471
+        },
+        "southwest": {
+          "lat": 51.4221955,
+          "lng": -10.6694501
+        }
+      },
+      "location": {
+        "lat": 53.41291,
+        "lng": -8.24389
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "algeria": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.0898205,
+          "lng": 11.9999997
+        },
+        "southwest": {
+          "lat": 18.968147,
+          "lng": -8.6666671
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.0898205,
+          "lng": 11.9999997
+        },
+        "southwest": {
+          "lat": 18.968147,
+          "lng": -8.6666671
+        }
+      },
+      "location": {
+        "lat": 27.2257277,
+        "lng": 2.4929454
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sweden": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 69.0599709,
+          "lng": 24.1665923
+        },
+        "southwest": {
+          "lat": 55.3367024,
+          "lng": 10.9631866
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 69.0599709,
+          "lng": 24.166024
+        },
+        "southwest": {
+          "lat": 55.3367024,
+          "lng": 10.9631866
+        }
+      },
+      "location": {
+        "lat": 60.128161,
+        "lng": 18.643501
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "serbia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 46.190032,
+          "lng": 23.0063095
+        },
+        "southwest": {
+          "lat": 42.2315029,
+          "lng": 18.8385221
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.190032,
+          "lng": 23.0063095
+        },
+        "southwest": {
+          "lat": 42.2315029,
+          "lng": 18.8385221
+        }
+      },
+      "location": {
+        "lat": 44.016521,
+        "lng": 21.005859
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "kiribati": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 4.6999585,
+          "lng": -150.1947654
+        },
+        "southwest": {
+          "lat": -11.4465192,
+          "lng": 169.5215322
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 2.0498584,
+          "lng": -157.1598452
+        },
+        "southwest": {
+          "lat": 1.6923715,
+          "lng": -157.5614933
+        }
+      },
+      "location": {
+        "lat": 1.8711149,
+        "lng": -157.3606692
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "isle of man": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 54.418247,
+          "lng": -4.308328
+        },
+        "southwest": {
+          "lat": 54.04464,
+          "lng": -4.8301808
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 54.418247,
+          "lng": -4.308328
+        },
+        "southwest": {
+          "lat": 54.04464,
+          "lng": -4.8301808
+        }
+      },
+      "location": {
+        "lat": 54.236107,
+        "lng": -4.548056
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "montenegro": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.558743,
+          "lng": 20.3577649
+        },
+        "southwest": {
+          "lat": 41.8497308,
+          "lng": 18.4337921
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.558743,
+          "lng": 20.3577649
+        },
+        "southwest": {
+          "lat": 41.8497308,
+          "lng": 18.4337921
+        }
+      },
+      "location": {
+        "lat": 42.708678,
+        "lng": 19.37439
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tajikistan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 41.044367,
+          "lng": 75.1539564
+        },
+        "southwest": {
+          "lat": 36.6719898,
+          "lng": 67.3420121
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 41.044367,
+          "lng": 75.1539564
+        },
+        "southwest": {
+          "lat": 36.6719898,
+          "lng": 67.3420121
+        }
+      },
+      "location": {
+        "lat": 38.861034,
+        "lng": 71.276093
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "svalbard and jan mayen": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 80.834053,
+          "lng": 33.497093
+        },
+        "southwest": {
+          "lat": 70.827446,
+          "lng": -9.07814
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 80.834053,
+          "lng": 33.497093
+        },
+        "southwest": {
+          "lat": 76.4362793,
+          "lng": 10.4907228
+        }
+      },
+      "location": {
+        "lat": 77.553604,
+        "lng": 23.670272
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "togo": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.1394957,
+          "lng": 1.8090501
+        },
+        "southwest": {
+          "lat": 6.1123578,
+          "lng": -0.1440418
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 11.1394957,
+          "lng": 1.8090501
+        },
+        "southwest": {
+          "lat": 6.1123578,
+          "lng": -0.1440418
+        }
+      },
+      "location": {
+        "lat": 8.619543,
+        "lng": 0.824782
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "jordan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 33.3746878,
+          "lng": 39.301154
+        },
+        "southwest": {
+          "lat": 29.1850361,
+          "lng": 34.9583368
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.3746878,
+          "lng": 39.301154
+        },
+        "southwest": {
+          "lat": 29.1850361,
+          "lng": 34.9583368
+        }
+      },
+      "location": {
+        "lat": 30.585164,
+        "lng": 36.238414
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "chile": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -17.4983293,
+          "lng": -66.4182016
+        },
+        "southwest": {
+          "lat": -55.9797808,
+          "lng": -109.454801
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -17.4983293,
+          "lng": -66.4182016
+        },
+        "southwest": {
+          "lat": -55.9797808,
+          "lng": -75.6967865
+        }
+      },
+      "location": {
+        "lat": -35.675147,
+        "lng": -71.542969
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "martinique": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.8787163,
+          "lng": -60.8105278
+        },
+        "southwest": {
+          "lat": 14.3886471,
+          "lng": -61.229093
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 14.8787163,
+          "lng": -60.8105278
+        },
+        "southwest": {
+          "lat": 14.3886471,
+          "lng": -61.229093
+        }
+      },
+      "location": {
+        "lat": 14.641528,
+        "lng": -61.024174
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "oman": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 26.4053947,
+          "lng": 59.8393974
+        },
+        "southwest": {
+          "lat": 16.650336,
+          "lng": 52.0000018
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 26.4053947,
+          "lng": 59.8393974
+        },
+        "southwest": {
+          "lat": 16.650336,
+          "lng": 52.0000018
+        }
+      },
+      "location": {
+        "lat": 21.512583,
+        "lng": 55.923255
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "turks and caicos islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 21.9623502,
+          "lng": -71.0860034
+        },
+        "southwest": {
+          "lat": 21.1921745,
+          "lng": -72.4824716
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 21.9623502,
+          "lng": -71.4617639
+        },
+        "southwest": {
+          "lat": 21.4540271,
+          "lng": -72.4824716
+        }
+      },
+      "location": {
+        "lat": 21.694025,
+        "lng": -71.797928
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "nigeria": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.8856449,
+          "lng": 14.6779814
+        },
+        "southwest": {
+          "lat": 4.2698571,
+          "lng": 2.676932
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.8856449,
+          "lng": 14.6779814
+        },
+        "southwest": {
+          "lat": 4.2698571,
+          "lng": 2.676932
+        }
+      },
+      "location": {
+        "lat": 9.081999,
+        "lng": 8.675277
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "spain": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.7923495,
+          "lng": 4.3277839
+        },
+        "southwest": {
+          "lat": 27.6377894,
+          "lng": -18.1612216
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 45.244,
+          "lng": 5.098
+        },
+        "southwest": {
+          "lat": 35.173,
+          "lng": -12.524
+        }
+      },
+      "location": {
+        "lat": 40.463667,
+        "lng": -3.74922
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sao tome and principe": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 1.7017723,
+          "lng": 7.4624635
+        },
+        "southwest": {
+          "lat": -0.0140044,
+          "lng": 6.4604759
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 0.4133947,
+          "lng": 6.7606527
+        },
+        "southwest": {
+          "lat": -0.0140044,
+          "lng": 6.4604759
+        }
+      },
+      "location": {
+        "lat": 0.18636,
+        "lng": 6.613081
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "georgia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.586627,
+          "lng": 46.736119
+        },
+        "southwest": {
+          "lat": 41.054942,
+          "lng": 40.0066113
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.586627,
+          "lng": 46.736119
+        },
+        "southwest": {
+          "lat": 41.054942,
+          "lng": 40.0066113
+        }
+      },
+      "location": {
+        "lat": 42.315407,
+        "lng": 43.356892
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bouvet island": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -54.4006218,
+          "lng": 3.4376263
+        },
+        "southwest": {
+          "lat": -54.44869,
+          "lng": 3.3354988
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -54.4006218,
+          "lng": 3.4376263
+        },
+        "southwest": {
+          "lat": -54.44869,
+          "lng": 3.3354988
+        }
+      },
+      "location": {
+        "lat": -54.423199,
+        "lng": 3.413194
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "viet nam": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 23.393395,
+          "lng": 109.4689751
+        },
+        "southwest": {
+          "lat": 8.4127295,
+          "lng": 102.14441
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.393395,
+          "lng": 109.4689751
+        },
+        "southwest": {
+          "lat": 8.4127296,
+          "lng": 102.14441
+        }
+      },
+      "location": {
+        "lat": 14.058324,
+        "lng": 108.277199
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "brunei darussalam": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 5.082646,
+          "lng": 115.3635623
+        },
+        "southwest": {
+          "lat": 4.002508,
+          "lng": 114.0760633
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.082646,
+          "lng": 115.3635623
+        },
+        "southwest": {
+          "lat": 4.002508,
+          "lng": 114.0760633
+        }
+      },
+      "location": {
+        "lat": 4.535277,
+        "lng": 114.727669
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sierra leone": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 9.9999724,
+          "lng": -10.271651
+        },
+        "southwest": {
+          "lat": 6.8990253,
+          "lng": -13.3020067
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 9.9999724,
+          "lng": -10.271651
+        },
+        "southwest": {
+          "lat": 6.8990253,
+          "lng": -13.3020067
+        }
+      },
+      "location": {
+        "lat": 8.460555,
+        "lng": -11.779889
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "morocco": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 35.9225072,
+          "lng": -0.9969757
+        },
+        "southwest": {
+          "lat": 27.6666665,
+          "lng": -13.1728913
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.9225072,
+          "lng": -0.9969757
+        },
+        "southwest": {
+          "lat": 27.6666665,
+          "lng": -13.1728913
+        }
+      },
+      "location": {
+        "lat": 31.791702,
+        "lng": -7.09262
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "syrian arab republic": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 37.320569,
+          "lng": 42.376309
+        },
+        "southwest": {
+          "lat": 32.311136,
+          "lng": 35.7165956
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.320569,
+          "lng": 42.376309
+        },
+        "southwest": {
+          "lat": 32.311136,
+          "lng": 35.7165956
+        }
+      },
+      "location": {
+        "lat": 34.802075,
+        "lng": 38.996815
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "gabon": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 2.3181094,
+          "lng": 14.5205562
+        },
+        "southwest": {
+          "lat": -3.9583722,
+          "lng": 8.6990528
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 2.3181094,
+          "lng": 14.5205562
+        },
+        "southwest": {
+          "lat": -3.9583722,
+          "lng": 8.6990528
+        }
+      },
+      "location": {
+        "lat": -0.803689,
+        "lng": 11.609444
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "north korea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.01159,
+          "lng": 130.6748657
+        },
+        "southwest": {
+          "lat": 37.6733322,
+          "lng": 124.1735528
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.01159,
+          "lng": 130.6748657
+        },
+        "southwest": {
+          "lat": 37.6733322,
+          "lng": 124.1735528
+        }
+      },
+      "location": {
+        "lat": 40.339852,
+        "lng": 127.510093
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guyana": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 8.5466277,
+          "lng": -56.49112
+        },
+        "southwest": {
+          "lat": 1.164724,
+          "lng": -61.414905
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 8.5466277,
+          "lng": -56.49112
+        },
+        "southwest": {
+          "lat": 1.164724,
+          "lng": -61.414905
+        }
+      },
+      "location": {
+        "lat": 4.860416,
+        "lng": -58.93018
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "russian federation": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 81.8581221,
+          "lng": -169.0467269
+        },
+        "southwest": {
+          "lat": 41.185353,
+          "lng": 19.6405327
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 70,
+          "lng": 179
+        },
+        "southwest": {
+          "lat": 40,
+          "lng": 27
+        }
+      },
+      "location": {
+        "lat": 61.52401,
+        "lng": 105.318756
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "grenada": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.5301829,
+          "lng": -61.3779974
+        },
+        "southwest": {
+          "lat": 11.9848728,
+          "lng": -61.8027279
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.2350874,
+          "lng": -61.5847206
+        },
+        "southwest": {
+          "lat": 11.9848728,
+          "lng": -61.8027279
+        }
+      },
+      "location": {
+        "lat": 12.1165,
+        "lng": -61.679
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "yemen": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.9996331,
+          "lng": 54.5335554
+        },
+        "southwest": {
+          "lat": 12.1081658,
+          "lng": 41.8160553
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.9996331,
+          "lng": 54.5335554
+        },
+        "southwest": {
+          "lat": 12.1081658,
+          "lng": 41.8160553
+        }
+      },
+      "location": {
+        "lat": 15.552727,
+        "lng": 48.516388
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "hong kong": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 22.561968,
+          "lng": 114.4069561
+        },
+        "southwest": {
+          "lat": 22.1533884,
+          "lng": 113.835078
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 22.561968,
+          "lng": 114.4069474
+        },
+        "southwest": {
+          "lat": 22.1533884,
+          "lng": 113.835079
+        }
+      },
+      "location": {
+        "lat": 22.396428,
+        "lng": 114.109497
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "poland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 54.8358123,
+          "lng": 24.1458931
+        },
+        "southwest": {
+          "lat": 49.0020252,
+          "lng": 14.1228641
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 54.8358123,
+          "lng": 24.1458931
+        },
+        "southwest": {
+          "lat": 49.0020252,
+          "lng": 14.1228641
+        }
+      },
+      "location": {
+        "lat": 51.919438,
+        "lng": 19.145136
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "south sudan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.2363886,
+          "lng": 35.9489972
+        },
+        "southwest": {
+          "lat": 3.4889804,
+          "lng": 23.4408493
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.2363886,
+          "lng": 35.9489972
+        },
+        "southwest": {
+          "lat": 3.4889804,
+          "lng": 23.4408493
+        }
+      },
+      "location": {
+        "lat": 6.8769919,
+        "lng": 31.3069788
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "ghana": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.1666675,
+          "lng": 1.1993625
+        },
+        "southwest": {
+          "lat": 4.7388737,
+          "lng": -3.260786
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 11.1666675,
+          "lng": 1.1993625
+        },
+        "southwest": {
+          "lat": 4.7388737,
+          "lng": -3.260786
+        }
+      },
+      "location": {
+        "lat": 7.946527,
+        "lng": -1.023194
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "chad": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 23.449235,
+          "lng": 24.0000011
+        },
+        "southwest": {
+          "lat": 7.442975,
+          "lng": 13.4699999
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.449235,
+          "lng": 24.0000011
+        },
+        "southwest": {
+          "lat": 7.442975,
+          "lng": 13.4699999
+        }
+      },
+      "location": {
+        "lat": 15.454166,
+        "lng": 18.732207
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "uruguay": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -30.0852149,
+          "lng": -53.0779286
+        },
+        "southwest": {
+          "lat": -35.0314185,
+          "lng": -58.43915
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -30.0852149,
+          "lng": -53.0779286
+        },
+        "southwest": {
+          "lat": -35.0314185,
+          "lng": -58.43915
+        }
+      },
+      "location": {
+        "lat": -32.522779,
+        "lng": -55.765835
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bonaire, sint eustatius and saba": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.6502944,
+          "lng": -62.9457768
+        },
+        "southwest": {
+          "lat": 12.0245041,
+          "lng": -68.4209633
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.3122396,
+          "lng": -68.1954027
+        },
+        "southwest": {
+          "lat": 12.0245041,
+          "lng": -68.4209633
+        }
+      },
+      "location": {
+        "lat": 12.1783611,
+        "lng": -68.2385339
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "india": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 35.5044752,
+          "lng": 97.395555
+        },
+        "southwest": {
+          "lat": 6.7471389,
+          "lng": 68.1623859
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.5044752,
+          "lng": 97.395555
+        },
+        "southwest": {
+          "lat": 6.7471389,
+          "lng": 68.1627956
+        }
+      },
+      "location": {
+        "lat": 20.593684,
+        "lng": 78.96288
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "new caledonia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -19.5395087,
+          "lng": 168.1336819
+        },
+        "southwest": {
+          "lat": -22.8819479,
+          "lng": 163.569721
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -19.5395087,
+          "lng": 168.1336819
+        },
+        "southwest": {
+          "lat": -22.8819479,
+          "lng": 163.569721
+        }
+      },
+      "location": {
+        "lat": -20.904305,
+        "lng": 165.618042
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "lesotho": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -28.5708011,
+          "lng": 29.4557087
+        },
+        "southwest": {
+          "lat": -30.6755788,
+          "lng": 27.011231
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -28.5708011,
+          "lng": 29.4557087
+        },
+        "southwest": {
+          "lat": -30.6755788,
+          "lng": 27.011231
+        }
+      },
+      "location": {
+        "lat": -29.609988,
+        "lng": 28.233608
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "angola": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -4.3879444,
+          "lng": 24.0844443
+        },
+        "southwest": {
+          "lat": -18.039104,
+          "lng": 11.669562
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -4.3879444,
+          "lng": 24.0844443
+        },
+        "southwest": {
+          "lat": -18.039104,
+          "lng": 11.669562
+        }
+      },
+      "location": {
+        "lat": -11.202692,
+        "lng": 17.873887
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "heard island and mcdonald islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -52.9616166,
+          "lng": 73.7760832
+        },
+        "southwest": {
+          "lat": -53.191547,
+          "lng": 73.25124
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -52.9616166,
+          "lng": 73.7760832
+        },
+        "southwest": {
+          "lat": -53.191547,
+          "lng": 73.25124
+        }
+      },
+      "location": {
+        "lat": -53.08181,
+        "lng": 73.504158
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint vincent and the grenadines": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.3842132,
+          "lng": -61.1134244
+        },
+        "southwest": {
+          "lat": 12.5326587,
+          "lng": -61.4610171
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.3842132,
+          "lng": -61.1134244
+        },
+        "southwest": {
+          "lat": 13.1225538,
+          "lng": -61.2790775
+        }
+      },
+      "location": {
+        "lat": 13.2533835,
+        "lng": -61.196251
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint pierre and miquelon": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 47.1442704,
+          "lng": -56.1189376
+        },
+        "southwest": {
+          "lat": 46.7491058,
+          "lng": -56.405632
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.1442704,
+          "lng": -56.1189376
+        },
+        "southwest": {
+          "lat": 46.7491058,
+          "lng": -56.405632
+        }
+      },
+      "location": {
+        "lat": 46.8852,
+        "lng": -56.3159
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "uganda": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 4.2230008,
+          "lng": 35.0330493
+        },
+        "southwest": {
+          "lat": -1.4815419,
+          "lng": 29.5734335
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 4.2230008,
+          "lng": 35.0330493
+        },
+        "southwest": {
+          "lat": -1.4815419,
+          "lng": 29.5734335
+        }
+      },
+      "location": {
+        "lat": 1.373333,
+        "lng": 32.290275
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "burundi": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -2.309987,
+          "lng": 30.8501728
+        },
+        "southwest": {
+          "lat": -4.4692284,
+          "lng": 29.000993
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -2.309987,
+          "lng": 30.8501728
+        },
+        "southwest": {
+          "lat": -4.4692284,
+          "lng": 29.000993
+        }
+      },
+      "location": {
+        "lat": -3.373056,
+        "lng": 29.918886
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "kenya": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 5.0334209,
+          "lng": 41.9068317
+        },
+        "southwest": {
+          "lat": -4.6796816,
+          "lng": 33.9098212
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.0334209,
+          "lng": 41.9068317
+        },
+        "southwest": {
+          "lat": -4.6796816,
+          "lng": 33.9098212
+        }
+      },
+      "location": {
+        "lat": -0.023559,
+        "lng": 37.906193
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "macao": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 22.2170639,
+          "lng": 113.5982798
+        },
+        "southwest": {
+          "lat": 22.1097717,
+          "lng": 113.5276053
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 22.2170639,
+          "lng": 113.5982798
+        },
+        "southwest": {
+          "lat": 22.1097717,
+          "lng": 113.5276053
+        }
+      },
+      "location": {
+        "lat": 22.198745,
+        "lng": 113.543873
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "botswana": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -17.778137,
+          "lng": 29.3753036
+        },
+        "southwest": {
+          "lat": -26.9075451,
+          "lng": 19.998905
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -17.778137,
+          "lng": 29.3753036
+        },
+        "southwest": {
+          "lat": -26.9075451,
+          "lng": 19.998905
+        }
+      },
+      "location": {
+        "lat": -22.328474,
+        "lng": 24.684866
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint martin (french part)": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.1251338,
+          "lng": -62.9703926
+        },
+        "southwest": {
+          "lat": 18.0465756,
+          "lng": -63.1533267
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.1251338,
+          "lng": -62.9703926
+        },
+        "southwest": {
+          "lat": 18.0465756,
+          "lng": -63.1533267
+        }
+      },
+      "location": {
+        "lat": 18.08255,
+        "lng": -63.052251
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "italy": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 47.092,
+          "lng": 18.5205015
+        },
+        "southwest": {
+          "lat": 35.4929201,
+          "lng": 6.6267201
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.092,
+          "lng": 18.5205015
+        },
+        "southwest": {
+          "lat": 35.4929201,
+          "lng": 6.6267201
+        }
+      },
+      "location": {
+        "lat": 41.87194,
+        "lng": 12.56738
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "western sahara": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 27.6666776,
+          "lng": -8.666666
+        },
+        "southwest": {
+          "lat": 20.7700184,
+          "lng": -17.1049082
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 27.6667028,
+          "lng": -8.666666
+        },
+        "southwest": {
+          "lat": 20.7700184,
+          "lng": -17.1049082
+        }
+      },
+      "location": {
+        "lat": 24.215527,
+        "lng": -12.885834
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "south africa": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -22.1253868,
+          "lng": 32.8909911
+        },
+        "southwest": {
+          "lat": -34.8331382,
+          "lng": 16.4608321
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -22.1253868,
+          "lng": 32.8909911
+        },
+        "southwest": {
+          "lat": -34.8331382,
+          "lng": 16.4608321
+        }
+      },
+      "location": {
+        "lat": -30.559482,
+        "lng": 22.937506
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "malta": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 36.0821467,
+          "lng": 14.5755001
+        },
+        "southwest": {
+          "lat": 35.805811,
+          "lng": 14.1833496
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.0821467,
+          "lng": 14.5755001
+        },
+        "southwest": {
+          "lat": 35.805811,
+          "lng": 14.1833496
+        }
+      },
+      "location": {
+        "lat": 35.937496,
+        "lng": 14.375416
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "ethiopia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.8942145,
+          "lng": 47.9999999
+        },
+        "southwest": {
+          "lat": 3.4041356,
+          "lng": 32.997734
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 14.8942145,
+          "lng": 47.9999999
+        },
+        "southwest": {
+          "lat": 3.4041356,
+          "lng": 32.997734
+        }
+      },
+      "location": {
+        "lat": 9.145,
+        "lng": 40.489673
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "bermuda": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 32.391305,
+          "lng": -64.6473774
+        },
+        "southwest": {
+          "lat": 32.24705,
+          "lng": -64.886788
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.391305,
+          "lng": -64.6473774
+        },
+        "southwest": {
+          "lat": 32.24705,
+          "lng": -64.886788
+        }
+      },
+      "location": {
+        "lat": 32.3078,
+        "lng": -64.7505
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "timor-leste": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -8.1268067,
+          "lng": 127.3416347
+        },
+        "southwest": {
+          "lat": -9.504195,
+          "lng": 124.041738
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -8.1268067,
+          "lng": 127.3416347
+        },
+        "southwest": {
+          "lat": -9.462656,
+          "lng": 124.931763
+        }
+      },
+      "location": {
+        "lat": -8.7114858,
+        "lng": 125.6347647
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "vanuatu": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -13.0724554,
+          "lng": 170.2384597
+        },
+        "southwest": {
+          "lat": -20.2522929,
+          "lng": 166.5417588
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -13.0724554,
+          "lng": 168.6490631
+        },
+        "southwest": {
+          "lat": -17.8261033,
+          "lng": 166.5417588
+        }
+      },
+      "location": {
+        "lat": -15.376706,
+        "lng": 166.959158
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "switzerland": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 47.8084546,
+          "lng": 10.4923401
+        },
+        "southwest": {
+          "lat": 45.81792,
+          "lng": 5.95608
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.8084546,
+          "lng": 10.4923401
+        },
+        "southwest": {
+          "lat": 45.81792,
+          "lng": 5.95608
+        }
+      },
+      "location": {
+        "lat": 46.818188,
+        "lng": 8.227512
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cameroon": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 13.083335,
+          "lng": 16.1944079
+        },
+        "southwest": {
+          "lat": 1.6558999,
+          "lng": 8.4947635
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 13.0833991,
+          "lng": 16.1944079
+        },
+        "southwest": {
+          "lat": 1.6558999,
+          "lng": 8.4947635
+        }
+      },
+      "location": {
+        "lat": 7.369722,
+        "lng": 12.354722
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "antarctica": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -61.0010338,
+          "lng": 180
+        },
+        "southwest": {
+          "lat": -90,
+          "lng": -180
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -61.0010338,
+          "lng": 180
+        },
+        "southwest": {
+          "lat": -90,
+          "lng": -180
+        }
+      },
+      "location": {
+        "lat": -75.250973,
+        "lng": -0.071389
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "benin": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 12.4086111,
+          "lng": 3.8433429
+        },
+        "southwest": {
+          "lat": 6.2356319,
+          "lng": 0.7766672
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 12.4086111,
+          "lng": 3.8433429
+        },
+        "southwest": {
+          "lat": 6.2356319,
+          "lng": 0.7766672
+        }
+      },
+      "location": {
+        "lat": 9.30769,
+        "lng": 2.315834
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "canada": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 83.115061,
+          "lng": -52.6194086
+        },
+        "southwest": {
+          "lat": 41.6765559,
+          "lng": -141.00187
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 70,
+          "lng": -50
+        },
+        "southwest": {
+          "lat": 42,
+          "lng": -142
+        }
+      },
+      "location": {
+        "lat": 56.130366,
+        "lng": -106.346771
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "r\u00e9union": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -20.8717557,
+          "lng": 55.8365536
+        },
+        "southwest": {
+          "lat": -21.389622,
+          "lng": 55.2164053
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -20.8717557,
+          "lng": 55.8365536
+        },
+        "southwest": {
+          "lat": -21.389622,
+          "lng": 55.2164053
+        }
+      },
+      "location": {
+        "lat": -21.115141,
+        "lng": 55.536384
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "lao people's democratic republic": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 22.502872,
+          "lng": 107.69483
+        },
+        "southwest": {
+          "lat": 13.90972,
+          "lng": 100.0832139
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 22.502872,
+          "lng": 107.69483
+        },
+        "southwest": {
+          "lat": 13.90972,
+          "lng": 100.0832139
+        }
+      },
+      "location": {
+        "lat": 19.85627,
+        "lng": 102.495496
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "singapore": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 1.4708809,
+          "lng": 104.0855574
+        },
+        "southwest": {
+          "lat": 1.166398,
+          "lng": 103.6055755
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 1.4708809,
+          "lng": 104.0855574
+        },
+        "southwest": {
+          "lat": 1.166398,
+          "lng": 103.6055755
+        }
+      },
+      "location": {
+        "lat": 1.352083,
+        "lng": 103.819836
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "faroe islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 62.3940993,
+          "lng": -6.251564
+        },
+        "southwest": {
+          "lat": 61.3909051,
+          "lng": -7.691905
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 62.3940993,
+          "lng": -6.251564
+        },
+        "southwest": {
+          "lat": 61.3909051,
+          "lng": -7.691905
+        }
+      },
+      "location": {
+        "lat": 61.892635,
+        "lng": -6.911806
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tuvalu": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -5.64223,
+          "lng": 179.8722614
+        },
+        "southwest": {
+          "lat": -10.8009338,
+          "lng": 176.0588907
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -10.6552096,
+          "lng": 179.5550537
+        },
+        "southwest": {
+          "lat": -10.8009338,
+          "lng": 179.3902588
+        }
+      },
+      "location": {
+        "lat": -10.7280717,
+        "lng": 179.4726562
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saint lucia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.110932,
+          "lng": -60.8730984
+        },
+        "southwest": {
+          "lat": 13.7081176,
+          "lng": -61.0796719
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 14.110932,
+          "lng": -60.8730984
+        },
+        "southwest": {
+          "lat": 13.7081176,
+          "lng": -61.0796719
+        }
+      },
+      "location": {
+        "lat": 13.909444,
+        "lng": -60.978893
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "saudi arabia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 32.154284,
+          "lng": 55.6666999
+        },
+        "southwest": {
+          "lat": 16.379528,
+          "lng": 34.5489979
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 32.154284,
+          "lng": 55.6666999
+        },
+        "southwest": {
+          "lat": 16.379528,
+          "lng": 34.5489979
+        }
+      },
+      "location": {
+        "lat": 23.885942,
+        "lng": 45.079162
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "costa rica": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 11.2196808,
+          "lng": -82.5526571
+        },
+        "southwest": {
+          "lat": 5.4991534,
+          "lng": -87.0945131
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 11.2196808,
+          "lng": -82.5526571
+        },
+        "southwest": {
+          "lat": 8.0406976,
+          "lng": -85.9557116
+        }
+      },
+      "location": {
+        "lat": 9.748917,
+        "lng": -83.753428
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "venezuela, bolivarian republic of": {
+     "geometry" : {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 12.4866941,
+              "lng" : -59.805666
+           },
+           "southwest" : {
+              "lat" : 0.6475291,
+              "lng" : -73.35155809999999
+           }
+        },
+        "location" : {
+           "lat" : 6.42375,
+           "lng" : -66.58973
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+           "northeast" : {
+              "lat" : 12.4866941,
+              "lng" : -59.805666
+           },
+           "southwest" : {
+              "lat" : 0.6475291,
+              "lng" : -73.35155809999999
+           }
+        }
+     },
+     "types" : [ "country", "political" ]    
+  },
+  "united states minor outlying islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 28.3977184,
+          "lng": -159.9849071
+        },
+        "southwest": {
+          "lat": -0.3824678,
+          "lng": 166.5989221
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.895611,
+          "lng": -162.0527816
+        },
+        "southwest": {
+          "lat": 5.8656291,
+          "lng": -162.1016397
+        }
+      },
+      "location": {
+        "lat": 5.88062,
+        "lng": -162.0772106
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cocos (keeling) islands": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -11.8221887,
+          "lng": 96.9300556
+        },
+        "southwest": {
+          "lat": -12.2088942,
+          "lng": 96.8166785
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -12.1345786,
+          "lng": 96.8667555
+        },
+        "southwest": {
+          "lat": -12.2071692,
+          "lng": 96.816723
+        }
+      },
+      "location": {
+        "lat": -12.1708739,
+        "lng": 96.8417392
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "slovenia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 46.876659,
+          "lng": 16.5966857
+        },
+        "southwest": {
+          "lat": 45.4216739,
+          "lng": 13.3753355
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 46.876659,
+          "lng": 16.5966857
+        },
+        "southwest": {
+          "lat": 45.4216739,
+          "lng": 13.3753355
+        }
+      },
+      "location": {
+        "lat": 46.151241,
+        "lng": 14.995463
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "honduras": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.4171037,
+          "lng": -83.1360769
+        },
+        "southwest": {
+          "lat": 12.9842246,
+          "lng": -89.355148
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 16.5165395,
+          "lng": -83.1360769
+        },
+        "southwest": {
+          "lat": 12.9842246,
+          "lng": -89.355148
+        }
+      },
+      "location": {
+        "lat": 15.199999,
+        "lng": -86.241905
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "germany": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 55.058347,
+          "lng": 15.0418962
+        },
+        "southwest": {
+          "lat": 47.2701115,
+          "lng": 5.8663425
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.058347,
+          "lng": 15.0418962
+        },
+        "southwest": {
+          "lat": 47.2701115,
+          "lng": 5.8663425
+        }
+      },
+      "location": {
+        "lat": 51.165691,
+        "lng": 10.451526
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "falkland islands (malvinas)": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -51.2332592,
+          "lng": -57.7161145
+        },
+        "southwest": {
+          "lat": -52.3952965,
+          "lng": -61.3477064
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -51.2332592,
+          "lng": -57.7161145
+        },
+        "southwest": {
+          "lat": -52.3952965,
+          "lng": -61.3475715
+        }
+      },
+      "location": {
+        "lat": -51.796253,
+        "lng": -59.523613
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "wallis and futuna": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -13.1833201,
+          "lng": -176.124841
+        },
+        "southwest": {
+          "lat": -14.3621244,
+          "lng": -178.1866085
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -14.2365527,
+          "lng": -177.9923071
+        },
+        "southwest": {
+          "lat": -14.3621244,
+          "lng": -178.1866085
+        }
+      },
+      "location": {
+        "lat": -14.2938,
+        "lng": -178.1165
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "san marino": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.992075,
+          "lng": 12.5167041
+        },
+        "southwest": {
+          "lat": 43.8936809,
+          "lng": 12.4034824
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.992075,
+          "lng": 12.5167041
+        },
+        "southwest": {
+          "lat": 43.8936809,
+          "lng": 12.4034824
+        }
+      },
+      "location": {
+        "lat": 43.94236,
+        "lng": 12.457777
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "dominica": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 15.6400639,
+          "lng": -61.2403035
+        },
+        "southwest": {
+          "lat": 15.207682,
+          "lng": -61.4798301
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 15.6400639,
+          "lng": -61.2403035
+        },
+        "southwest": {
+          "lat": 15.207682,
+          "lng": -61.4798301
+        }
+      },
+      "location": {
+        "lat": 15.414999,
+        "lng": -61.370976
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "suriname": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 6.0092832,
+          "lng": -53.9510244
+        },
+        "southwest": {
+          "lat": 1.837306,
+          "lng": -58.0705059
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 6.0092832,
+          "lng": -53.9510244
+        },
+        "southwest": {
+          "lat": 1.837306,
+          "lng": -58.0705059
+        }
+      },
+      "location": {
+        "lat": 3.919305,
+        "lng": -56.027783
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "eritrea": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 18.0212099,
+          "lng": 43.1429772
+        },
+        "southwest": {
+          "lat": 12.354723,
+          "lng": 36.4333479
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 18.0212099,
+          "lng": 43.1429772
+        },
+        "southwest": {
+          "lat": 12.354723,
+          "lng": 36.4333479
+        }
+      },
+      "location": {
+        "lat": 15.179384,
+        "lng": 39.782334
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tonga": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -15.5663926,
+          "lng": -173.7024841
+        },
+        "southwest": {
+          "lat": -21.4734606,
+          "lng": -175.6813217
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -21.0101852,
+          "lng": -174.9005948
+        },
+        "southwest": {
+          "lat": -21.4734606,
+          "lng": -175.3564974
+        }
+      },
+      "location": {
+        "lat": -21.178986,
+        "lng": -175.198242
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "maldives": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 7.1062798,
+          "lng": 73.7192702
+        },
+        "southwest": {
+          "lat": -0.7035846,
+          "lng": 72.6385815
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 2.1331624,
+          "lng": 73.5859455
+        },
+        "southwest": {
+          "lat": 1.8213315,
+          "lng": 73.4862614
+        }
+      },
+      "location": {
+        "lat": 1.9772469,
+        "lng": 73.5361035
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "el salvador": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 14.4505567,
+          "lng": -87.6837516
+        },
+        "southwest": {
+          "lat": 13.1554312,
+          "lng": -90.1268106
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 14.4505567,
+          "lng": -87.6837516
+        },
+        "southwest": {
+          "lat": 13.1554312,
+          "lng": -90.1268106
+        }
+      },
+      "location": {
+        "lat": 13.794185,
+        "lng": -88.89653
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "tanzania": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": -0.984397,
+          "lng": 40.4449653
+        },
+        "southwest": {
+          "lat": -11.7612536,
+          "lng": 29.34
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -0.984397,
+          "lng": 40.4449653
+        },
+        "southwest": {
+          "lat": -11.7612536,
+          "lng": 29.34
+        }
+      },
+      "location": {
+        "lat": -6.369028,
+        "lng": 34.888822
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "indonesia": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 6.076912,
+          "lng": 141.0195621
+        },
+        "southwest": {
+          "lat": -11.0074361,
+          "lng": 95.009707
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 5.906821,
+          "lng": 141.018662
+        },
+        "southwest": {
+          "lat": -11.004673,
+          "lng": 95.0110649
+        }
+      },
+      "location": {
+        "lat": -0.789275,
+        "lng": 113.921327
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "cape verde": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 17.2052865,
+          "lng": -22.6577782
+        },
+        "southwest": {
+          "lat": 14.8023513,
+          "lng": -25.3609944
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 15.3437888,
+          "lng": -23.4288338
+        },
+        "southwest": {
+          "lat": 14.8996687,
+          "lng": -23.7813296
+        }
+      },
+      "location": {
+        "lat": 15.1217288,
+        "lng": -23.6050817
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "sudan": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 22.2249184,
+          "lng": 38.5842192
+        },
+        "southwest": {
+          "lat": 9.3472209,
+          "lng": 21.814939
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 22.2249184,
+          "lng": 38.5842192
+        },
+        "southwest": {
+          "lat": 9.3472209,
+          "lng": 21.814939
+        }
+      },
+      "location": {
+        "lat": 12.862807,
+        "lng": 30.217636
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "liechtenstein": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 47.2705467,
+          "lng": 9.6356501
+        },
+        "southwest": {
+          "lat": 47.04829,
+          "lng": 9.47162
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 47.2705467,
+          "lng": 9.6356501
+        },
+        "southwest": {
+          "lat": 47.04829,
+          "lng": 9.47162
+        }
+      },
+      "location": {
+        "lat": 47.166,
+        "lng": 9.555373
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "guernsey": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 49.7323662,
+          "lng": -2.158637
+        },
+        "southwest": {
+          "lat": 49.3996333,
+          "lng": -2.6757403
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 49.5094108,
+          "lng": -2.4978395
+        },
+        "southwest": {
+          "lat": 49.4167199,
+          "lng": -2.6757403
+        }
+      },
+      "location": {
+        "lat": 49.465691,
+        "lng": -2.585278
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  },
+  "monaco": {
+    "geometry": {
+      "location_type": "APPROXIMATE",
+      "bounds": {
+        "northeast": {
+          "lat": 43.7519029,
+          "lng": 7.4398113
+        },
+        "southwest": {
+          "lat": 43.7247428,
+          "lng": 7.4091049
+        }
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.7519029,
+          "lng": 7.4398113
+        },
+        "southwest": {
+          "lat": 43.7247428,
+          "lng": 7.4091049
+        }
+      },
+      "location": {
+        "lat": 43.7384176,
+        "lng": 7.4246158
+      }
+    },
+    "types": [
+      "country",
+      "political"
+    ]
+  }
+}
